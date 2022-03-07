@@ -13,7 +13,14 @@ p {
 	text-align: left;
 }
 
-.content-centre {
-	display: block;
-	text-align: center;
+iframe {
+	border: none;
 }
+
+.content-centre {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
