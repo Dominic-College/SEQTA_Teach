@@ -12,3 +12,8 @@ p {
 	font-style: normal;
 	text-align: left;
 }
+
+.content-centre {
+	display: block;
+	text-align: center;
+}
