@@ -2,8 +2,7 @@
 @import url(https://use.typekit.net/efj7gzu.css);
 /* CSS Document */
 body {
-	background-color: rgba(31, 49, 90, 1.00);
-	margin: 0px;
+	background-color: #1e345d;
 }
 
 p {
@@ -11,6 +10,10 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	text-align: left;
+}
+
+iframe {
+	border: none;
 }
 
 .content-centre {
@@ -21,11 +24,8 @@ p {
 }
 
 #animation_container {
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
+	position:absolute;
 	margin:auto;
-	left:50%;right:50%;
+	left:0;right:0;
 	top:0;bottom:0;
 }
