@@ -15,6 +15,17 @@
 <title>SEQTA_Teach_Animate</title>
 	<link href="dom-seqta-teach.css" rel="stylesheet" type="text/css">
 <!-- write your code here -->
+<style>
+  body {
+	overflow:hidden;
+  }
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:-100%;right:-100%;
+	top:-100%;bottom:-100%;
+  }
+</style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="SEQTA_Teach_Animate.js"></script>
 <script>
@@ -54,14 +65,14 @@ function handleComplete(evt,comp) {
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(true,'both',true,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.makeResponsive(true,'both',true,2,[canvas,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
 </script>
 <!-- write your code here -->
 </head>
-<body onload="init();">
+<body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(31, 49, 90, 1.00); width:900px; height:768px">
 		<canvas id="canvas" width="900" height="768" style="position: absolute; display: block; background-color:rgba(31, 49, 90, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:900px; height:768px; position: absolute; left: 0px; top: 0px; display: block;">
