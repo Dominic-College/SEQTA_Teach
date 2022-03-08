@@ -13,10 +13,6 @@ p {
 	text-align: left;
 }
 
-iframe {
-	border: none;
-}
-
 .content-centre {
 	display: flex;
 	text-align: center;
