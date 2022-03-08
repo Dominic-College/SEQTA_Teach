@@ -26,6 +26,6 @@ iframe {
 #animation_container {
 	position:absolute;
 	margin:auto;
-	left:0;right:0;
+	left:50%;right:50%;
 	top:0;bottom:0;
 }
