@@ -24,7 +24,10 @@ iframe {
 }
 
 #animation_container {
-	position:absolute;
+/*	position:absolute; */
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 	margin:auto;
 	left:50%;right:50%;
 	top:0;bottom:0;
