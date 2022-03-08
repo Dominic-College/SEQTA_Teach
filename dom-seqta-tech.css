@@ -25,9 +25,11 @@ iframe {
 }
 
 #animation_container {
+	display: flex;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 	margin:auto;
-	left:0;right:0;
+	left:50%;right:50%;
 	top:0;bottom:0;
 }
