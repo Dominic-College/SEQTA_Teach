@@ -3,7 +3,7 @@
 /* CSS Document */
 body {
 	background-color: #1E3159;
-	margin: 30px;
+	margin: 0px;
 }
 
 p {
@@ -27,5 +27,5 @@ p {
 	align-items: center;
 	margin:auto;
 	left:50%;right:50%;
-	top:0;bottom:0;
+	top:0;bottom:30px;
 }
