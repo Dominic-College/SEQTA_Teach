@@ -6,6 +6,10 @@ body {
 	margin: 0px;
 }
 
+BG-Blue {
+	background: rgba(31, 49, 90, 1.00);
+}
+
 p {
 	font-family: adobe-garamond-pro, serif;
 	font-weight: 400;
