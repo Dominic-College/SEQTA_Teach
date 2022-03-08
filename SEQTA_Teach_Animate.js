@@ -2928,22 +2928,10 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [9,19,29,39];
 	// timeline functions:
 	this.frame_9 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
-		*/
-		
+		/* Stop at This Frame */
 		this.stop();
 		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.Helpdesk_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
@@ -2951,16 +2939,7 @@ if (reversed == null) { reversed = false; }
 			this.gotoAndPlay(10);
 		}
 		
-		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.TaL_Resources_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_2.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame_2()
@@ -2968,16 +2947,7 @@ if (reversed == null) { reversed = false; }
 			this.gotoAndPlay(20);
 		}
 		
-		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.Forms_Admin_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame_6()
@@ -2986,24 +2956,10 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_19 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
-		*/
-		
+		/* Stop at This Frame */
 		this.stop();
 		
-		
-		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.Shader_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_8.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame_8()
@@ -3012,24 +2968,10 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_29 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
-		*/
-		
+		/* Stop at This Frame */
 		this.stop();
 		
-		
-		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.Shader_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_9.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame_9()
@@ -3038,24 +2980,10 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_39 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
-		*/
-		
+		/* Stop at This Frame */
 		this.stop();
 		
-		
-		
-		/* Click to Go to Frame and Play
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
+		/* Click to Go to Frame and Play */
 		this.Shader_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_10.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame_10()
