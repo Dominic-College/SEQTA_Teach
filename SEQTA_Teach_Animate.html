@@ -11,12 +11,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>SEQTA Teach (Animate Page)</title>
-	<link href="dom-seqta-teach.css" rel="stylesheet" type="text/css">
+<title>SEQTA_Teach_Animate</title>
 <!-- write your code here -->
+<style>
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="SEQTA Teach (Animate Page).js"></script>
+<script src="SEQTA_Teach_Animate.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -63,8 +69,8 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(31, 49, 90, 1.00); width:900px; height:768px">
-		<canvas id="canvas" width="900" height="768" style="position: absolute; display: flex; background-color:rgba(31, 49, 90, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:900px; height:768px; position: absolute; left: 0px; top: 0px; display: flex;">
+		<canvas id="canvas" width="900" height="768" style="position: absolute; display: block; background-color:rgba(31, 49, 90, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:900px; height:768px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
