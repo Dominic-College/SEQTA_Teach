@@ -2985,7 +2985,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.PaperCut_btn.addEventListener("click", fl_ClickToGoToWebPage_20);
 		function fl_ClickToGoToWebPage_20() {
-			window.open("http:\\printserver:9191\user", "_blank");
+			window.open("http://printserver:9191/user", "_blank");
 		}
 		
 		this.SOBS_btn.addEventListener("click", fl_ClickToGoToWebPage_23);
@@ -3089,6 +3089,7 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_10() {
 			this.gotoAndPlay(1);
 		}
+		
 		/* Click to Go to Web Page */
 		this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_11);
 		function fl_ClickToGoToWebPage_11() {
