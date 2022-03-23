@@ -3,12 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"SEQTA_Teach_Animate_atlas_1", frames: [[1812,0,94,94],[1908,0,94,94],[1812,384,94,93],[1812,954,93,94],[1812,1050,93,93],[0,0,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[0,390,300,388],[302,390,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[0,780,300,388],[302,780,300,388],[604,780,300,388],[906,780,300,388],[1208,780,300,388],[1510,780,300,388],[0,1170,300,388],[302,1170,300,388],[604,1170,300,388],[906,1170,300,388],[1208,1170,300,388],[1510,1170,300,388],[1812,96,94,94],[1908,384,94,93],[1812,479,94,93],[1908,479,94,93],[1908,96,94,94],[1812,574,94,93],[1908,574,94,93],[1812,669,94,93],[1908,669,94,93],[1812,764,94,93],[1907,954,93,94],[1812,192,94,94],[1908,764,94,93],[1812,859,94,93],[1908,192,94,94],[1907,1050,93,93],[1812,1145,93,93],[1907,1145,93,93],[1908,859,94,93],[1812,288,94,94],[1908,288,94,94]]},
+		{name:"SEQTA_Teach_Animate_atlas_1", frames: [[0,113,805,176],[807,113,300,388],[0,291,300,388],[302,291,300,388],[1109,113,300,388],[1411,113,300,388],[1713,113,300,388],[0,681,300,388],[0,1071,300,388],[0,1461,300,388],[302,681,300,388],[302,1071,300,388],[302,1461,300,388],[604,503,300,388],[604,893,300,388],[604,1283,300,388],[906,503,300,388],[1208,503,300,388],[1510,503,300,388],[906,893,300,388],[906,1283,300,388],[1208,893,300,388],[1510,893,300,388],[1208,1283,300,388],[1510,1283,300,388],[0,0,1999,111]]},
 		{name:"SEQTA_Teach_Animate_atlas_2", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
 		{name:"SEQTA_Teach_Animate_atlas_3", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
 		{name:"SEQTA_Teach_Animate_atlas_4", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
 		{name:"SEQTA_Teach_Animate_atlas_5", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
-		{name:"SEQTA_Teach_Animate_atlas_6", frames: [[0,113,805,176],[807,113,300,388],[0,291,300,388],[302,291,300,388],[1109,113,300,388],[1411,113,300,388],[1713,113,300,388],[0,681,300,388],[0,1071,300,388],[0,1461,300,388],[302,681,300,388],[302,1071,300,388],[302,1461,300,388],[604,503,300,388],[604,893,300,388],[604,1283,300,388],[906,503,300,388],[1208,503,300,388],[1510,503,300,388],[906,893,300,388],[906,1283,300,388],[1208,893,300,388],[1510,893,300,388],[1208,1283,300,388],[1510,1283,300,388],[0,0,1999,111]]}
+		{name:"SEQTA_Teach_Animate_atlas_6", frames: [[1812,0,94,94],[1908,0,94,94],[1812,384,94,93],[1812,954,93,94],[1812,1050,93,93],[0,0,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[0,390,300,388],[302,390,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[0,780,300,388],[302,780,300,388],[604,780,300,388],[906,780,300,388],[1208,780,300,388],[1510,780,300,388],[0,1170,300,388],[302,1170,300,388],[604,1170,300,388],[906,1170,300,388],[1208,1170,300,388],[1510,1170,300,388],[1812,96,94,94],[1908,384,94,93],[1812,479,94,93],[1908,479,94,93],[1908,96,94,94],[1812,574,94,93],[1908,574,94,93],[1812,669,94,93],[1908,669,94,93],[1812,764,94,93],[1907,954,93,94],[1812,192,94,94],[1908,764,94,93],[1812,859,94,93],[1908,192,94,94],[1907,1050,93,93],[1812,1145,93,93],[1907,1145,93,93],[1908,859,94,93],[1812,288,94,94],[1908,288,94,94]]}
 ];
 
 
@@ -33,1372 +33,1372 @@ lib.ssMetadata = [
 
 
 (lib.Accessit03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ClicktoPray03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ClickView03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.College_Logo_Header = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Complispace03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Consent2Go03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_0 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_1 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_10 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_100 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_101 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_102 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_103 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_104 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_105 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_106 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_107 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_108 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_109 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_11 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_110 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_111 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_112 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_113 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_114 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_115 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_116 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_117 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_118 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_119 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_12 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_120 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_121 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_122 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_123 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_124 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_125 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_126 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_127 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_128 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_129 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_13 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_130 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_131 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_132 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_133 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_134 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_135 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_136 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_137 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_138 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_139 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_14 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_140 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_141 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_142 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_143 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_144 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_145 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_146 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_147 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_148 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_149 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_15 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_150 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_151 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_152 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_153 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_154 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_155 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_156 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_157 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_158 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_159 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_16 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_160 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_161 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_162 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_163 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_164 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_165 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_166 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_167 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_17 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_18 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_19 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_2 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_20 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_21 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_22 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_23 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_24 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_25 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_26 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_27 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_28 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_29 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_3 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_30 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_31 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_32 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_33 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_34 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_35 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_36 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_37 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_38 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_39 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_4 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_40 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_41 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_42 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_43 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_44 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_45 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_46 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_47 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_48 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_49 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_5 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_3"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_4"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_50 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_51 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_52 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_53 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_54 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_55 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_56 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_57 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_58 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_59 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_6 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_60 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_61 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_62 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_63 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_64 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_65 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_66 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_67 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_68 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_69 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_7 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_70 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_71 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_72 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_73 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_74 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_75 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_76 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_77 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_2"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_5"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_78 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_79 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_8 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_80 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_81 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_82 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_83 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_84 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_85 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_86 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_87 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_88 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_89 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_9 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_90 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_91 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_92 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_93 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_94 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_95 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation_1_96 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation_1_97 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation_1_98 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation_1_99 = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Cyberhound03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.EdHQ03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.EdSmart03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Helpdesk03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(32);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Incident_Report03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(33);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.JacPlus03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(34);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Leave_Application03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(35);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Maintenance_Request03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.OneDrive03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(37);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Papercut03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PAT_Testing03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Petty_Cash03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Renaisance03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Ribben = function() {
 	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sage03x = function() {
+(lib.Crestcolourforanimation_1_97 = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crestcolourforanimation_1_98 = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Crestcolourforanimation_1_99 = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Cyberhound03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.EdHQ03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.EdSmart03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Helpdesk03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Incident_Report03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.JacPlus03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Leave_Application03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Maintenance_Request03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.OneDrive03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Papercut03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PAT_Testing03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Petty_Cash03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Renaisance03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Ribben = function() {
 	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sage03x = function() {
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SEQTA03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SharePoint03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SOBS03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Synergetic03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.TL_Resources03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Wheelers_eBooks03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Worldbooks03x = function() {
-	this.initialize(ss["SEQTA_Teach_Animate_atlas_1"]);
+	this.initialize(ss["SEQTA_Teach_Animate_atlas_6"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
@@ -3455,12 +3455,12 @@ lib.properties = {
 	color: "#1F315A",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/SEQTA_Teach_Animate_atlas_1.png", id:"SEQTA_Teach_Animate_atlas_1"},
-		{src:"images/SEQTA_Teach_Animate_atlas_2.png", id:"SEQTA_Teach_Animate_atlas_2"},
-		{src:"images/SEQTA_Teach_Animate_atlas_3.png", id:"SEQTA_Teach_Animate_atlas_3"},
-		{src:"images/SEQTA_Teach_Animate_atlas_4.png", id:"SEQTA_Teach_Animate_atlas_4"},
-		{src:"images/SEQTA_Teach_Animate_atlas_5.png", id:"SEQTA_Teach_Animate_atlas_5"},
-		{src:"images/SEQTA_Teach_Animate_atlas_6.png", id:"SEQTA_Teach_Animate_atlas_6"}
+		{src:"images/SEQTA_Teach_Animate_atlas_1.png?1647954649655", id:"SEQTA_Teach_Animate_atlas_1"},
+		{src:"images/SEQTA_Teach_Animate_atlas_2.png?1647954649655", id:"SEQTA_Teach_Animate_atlas_2"},
+		{src:"images/SEQTA_Teach_Animate_atlas_3.png?1647954649656", id:"SEQTA_Teach_Animate_atlas_3"},
+		{src:"images/SEQTA_Teach_Animate_atlas_4.png?1647954649657", id:"SEQTA_Teach_Animate_atlas_4"},
+		{src:"images/SEQTA_Teach_Animate_atlas_5.png?1647954649657", id:"SEQTA_Teach_Animate_atlas_5"},
+		{src:"images/SEQTA_Teach_Animate_atlas_6.png?1647954649658", id:"SEQTA_Teach_Animate_atlas_6"}
 	],
 	preloads: []
 };
