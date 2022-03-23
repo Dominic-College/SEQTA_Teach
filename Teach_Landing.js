@@ -2273,7 +2273,7 @@ lib.properties = {
 	height: 870,
 	fps: 25,
 	color: "#1F315A",
-	opacity: 1.00,
+	opacity: 0.00,
 	manifest: [
 		{src:"images/Teach_Landing_atlas_1.png", id:"Teach_Landing_atlas_1"},
 		{src:"images/Teach_Landing_atlas_2.png", id:"Teach_Landing_atlas_2"},
