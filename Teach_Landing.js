@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Teach_Landing_atlas_1", frames: [[0,1170,273,94],[275,1170,273,94],[550,1170,273,94],[825,1170,273,94],[0,0,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[0,390,300,388],[302,390,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[0,780,300,388],[302,780,300,388],[604,780,300,388],[906,780,300,388],[1208,780,300,388],[1510,780,300,388],[1100,1170,273,94],[1375,1170,273,94],[1650,1170,273,94],[0,1266,273,94],[1375,1266,273,93],[275,1266,273,94],[550,1266,273,94],[1650,1266,273,93],[825,1266,273,94],[1100,1266,273,94]]},
+		{name:"Teach_Landing_atlas_1", frames: [[0,1170,273,94],[275,1170,273,94],[550,1170,273,94],[825,1170,273,94],[1100,1170,273,94],[0,0,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[0,390,300,388],[302,390,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[0,780,300,388],[302,780,300,388],[604,780,300,388],[906,780,300,388],[1208,780,300,388],[1510,780,300,388],[1375,1170,273,94],[1650,1170,273,94],[0,1266,273,94],[275,1266,273,94],[550,1266,273,94],[825,1266,273,94],[825,1362,273,93],[1100,1362,273,93],[1375,1362,273,93],[1650,1362,273,93],[1100,1266,273,94],[825,1457,273,93],[0,1458,273,93],[275,1458,273,93],[550,1458,273,93],[1100,1457,273,93],[1375,1266,273,94],[1650,1266,273,94],[1375,1457,273,93],[0,1362,273,94],[275,1362,273,94],[1650,1457,273,93],[550,1362,273,94]]},
 		{name:"Teach_Landing_atlas_2", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
 		{name:"Teach_Landing_atlas_3", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
 		{name:"Teach_Landing_atlas_4", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
@@ -32,30 +32,37 @@ lib.ssMetadata = [
 
 
 
-(lib.ClicktoPray_Oval03x = function() {
+(lib.Accessit_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ClickView_Oval03x = function() {
+(lib.ClicktoPray_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Complispace_Oval03x = function() {
+(lib.ClickView_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Consent2Go_OVal03x = function() {
+(lib.Complispace_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Consent2Go_OVal03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1112,198 +1119,313 @@ lib.ssMetadata = [
 
 (lib.Crestcolourforanimation2_83 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_84 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_85 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_86 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_87 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_88 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_89 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_9 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_90 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_91 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_92 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_93 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_94 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_95 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_96 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_97 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_98 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Crestcolourforanimation2_99 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Cyberhound_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.FormsAdim_Oval03x = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Helpdesk_Oval03x = function() {
+(lib.ELearning_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.OneDrive_Oval03x = function() {
+(lib.EdHQ_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Papercut03x = function() {
+(lib.EdSmart_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SEQTA_Oval03x = function() {
+(lib.FormsAdim_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SharePoint_Oval03x = function() {
+(lib.Helpdesk_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SOBS_Oval03x = function() {
+(lib.Incident_Report_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Synergetic_Oval03x = function() {
+(lib.JacPlus_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.TL_Resources_Oval03x = function() {
+(lib.Leave_Application03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.Maintenance_Request_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.OneDrive_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Papercut03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PAT_Testing_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Petty_Cash_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Renaisance_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sage_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SEQTA_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SharePoint_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SOBS_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Synergetic_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.TL_Resources_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Wheelers_eBooks_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Worldbooks_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Shader_Btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#1F315A").s().p("EhCeAx2MAAAhjrMCE9AAAMAAABjrg");
+	this.shape.setTransform(-8,-13);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-433.5,-332,851,638);
 
 
 (lib.Crestcolourforanimation2_gif = function(mode,startPosition,loop,reversed) {
@@ -1662,6 +1784,74 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,300,388);
 
 
+(lib.Worldbooks_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Worldbooks\nOnline", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 122;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-27.85);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2875,y:-26.7,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Worldbooks_Oval03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
+
+
+(lib.Wheelers_eBooks_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Wheels eBooks\nand\nAudiobooks", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 165;
+	this.text.parent = this;
+	this.text.setTransform(24.5,-41);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:24.3976,y:-38.65,color:"#857345",lineWidth:152},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Wheelers_eBooks_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-52.5,273,109);
+
+
 (lib.TL_Resources_Oval = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1830,6 +2020,142 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-136.5,-53.4,273,109);
 
 
+(lib.sage_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("sage\nEnployee\nSelf Service", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 114;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-40.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.29,y:-39.1,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.sage_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-53,273,109);
+
+
+(lib.Renaisance_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Renaisance\nLearning", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 113;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-27.85);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.3125,y:-26.7,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Renaisance_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-46.5,273,93);
+
+
+(lib.Petty_Cash_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Petty Cash\nClaim Form", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 113;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-27.85);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.275,y:-26.3,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Petty_Cash_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-46.5,273,93);
+
+
+(lib.PAT_Testing_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("PAT Testing", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 117;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.3125,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.PAT_Testing_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-46.5,273,93);
+
+
 (lib.Papercut_Oval = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1898,6 +2224,142 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-137,-47,273.5,94);
 
 
+(lib.Maintenance_Request_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Submit\nMaintenance\nRequest", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 132;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-41.05);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.29,y:-39.1,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Maintenance_Request_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-53,273,109);
+
+
+(lib.Leave_Application_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Professional\nLeave Application\nForm", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 177;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-41.05);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2701,y:-39.1,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Leave_Application03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-53,273,109);
+
+
+(lib.JacPlus_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("JacPlus", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 110;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2825,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.JacPlus_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-46.5,273,93);
+
+
+(lib.Incident_Report_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Submit\nIncident Report", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 155;
+	this.text.parent = this;
+	this.text.setTransform(29.9,-28.25);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:29.8726,y:-27.1,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Incident_Report_Oval03x();
+	this.instance.setTransform(-136.5,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-44},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-46.5,273,93);
+
+
 (lib.Helpdesk_Oval = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1963,6 +2425,108 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
+
+
+(lib.EdSmart_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("EdSmart", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 110;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2825,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.EdSmart_Oval03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
+
+
+(lib.EdHQ_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("EdHQ", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 110;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2825,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.EdHQ_Oval03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
+
+
+(lib.E_Learning_Ticket_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Submit\nE-Learning\nTicket", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 23;
+	this.text.lineWidth = 105;
+	this.text.parent = this;
+	this.text.setTransform(30.3,-39.85);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.265,y:-39.1,color:"#857345",lineHeight:24.3},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.ELearning_Oval03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-53,273,109);
 
 
 (lib.Cyberhound_Oval = function(mode,startPosition,loop,reversed) {
@@ -2134,6 +2698,40 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
 
 
+(lib.Accessit_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Accessit", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 110;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2825,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.Accessit_Oval03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
+
+
 // stage content:
 (lib.Teach_Landing = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -2146,13 +2744,441 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	this.actionFrames = [0,9,19,29,39];
+	// timeline functions:
+	this.frame_0 = function() {
+		/* Click to Go to Frame and Play*/
+		this.Helpdesk_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_2.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_2() {
+			this.gotoAndPlay(10);
+		}
+		/* Click to Go to Frame and Play*/
+		this.Forms_Adim_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_3.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_3() {
+			this.gotoAndPlay(30);
+		}
+		
+		/* Click to Go to Frame and Play*/
+		this.TnL_Resources_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame() {
+			this.gotoAndPlay(20);
+		}
+		
+		/* Click to Go to Web Page */
+		this.SEQTA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_3);
+		function fl_ClickToGoToWebPage_3() {
+			window.open("https://static.seqta.com.au/ecourses/", "_blank");
+		}
+		
+		this.SharePoint_btn.addEventListener("click", fl_ClickToGoToWebPage_4);
+		function fl_ClickToGoToWebPage_4() {
+			window.open("https://dominic.sharepoint.com/SitePages/Home(2).aspx", "_blank");
+		}
+		
+		this.ClickView_btn.addEventListener("click", fl_ClickToGoToWebPage_9);
+		function fl_ClickToGoToWebPage_9() {
+			window.open("https://online.clickview.com.au", "_blank");
+		}
+		
+		this.OneDrive_btn.addEventListener("click", fl_ClickToGoToWebPage_10);
+		function fl_ClickToGoToWebPage_10() {
+			window.open("https://onedrive.live.com/about/en-au/signin/", "_blank");
+		}
+		
+		this.Complispace_btn.addEventListener("click", fl_ClickToGoToWebPage_14);
+		function fl_ClickToGoToWebPage_14() {
+			window.open("https://dominic.complispaceprimary.com.au/login", "_blank");
+		}
+		
+		this.Consent2Go_btn.addEventListener("click", fl_ClickToGoToWebPage_15);
+		function fl_ClickToGoToWebPage_15() {
+			window.open("https://www.mcbschools.com/School", "_blank");
+		}
+		
+		this.CyberHound_btn.addEventListener("click", fl_ClickToGoToWebPage_16);
+		function fl_ClickToGoToWebPage_16() {
+			window.open("https://live.localnetwork.zone", "_blank");
+		}
+		
+		this.PaperCut_btn.addEventListener("click", fl_ClickToGoToWebPage_20);
+		function fl_ClickToGoToWebPage_20() {
+			window.open("http://printserver:9191/user", "_blank");
+		}
+		
+		this.SOBS_btn.addEventListener("click", fl_ClickToGoToWebPage_23);
+		function fl_ClickToGoToWebPage_23() {
+			window.open("https://sobs.com.au/pt/loginpage.php?schoolid=408", "_blank");
+		}
+		
+		this.Synergetic_btn.addEventListener("click", fl_ClickToGoToWebPage_25);
+		function fl_ClickToGoToWebPage_25() {
+			window.open("https://synweb.dominic.tas.edu.au", "_blank");
+		}
+		
+		this.ClicktoPlay_btn.addEventListener("click", fl_ClickToGoToWebPage_27);
+		function fl_ClickToGoToWebPage_27() {
+			window.open("https://clicktopray.org", "_blank");
+		}
+	}
+	this.frame_9 = function() {
+		/* Stop at This Frame*/
+		this.stop();
+	}
+	this.frame_19 = function() {
+		/* Stop at This Frame*/
+		this.stop();
+		
+		/* Click to Go to Frame and Play*/
+		this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_6() {
+			this.gotoAndPlay(5);
+		}
+		
+		/* Click to Go to Web Page */
+		this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_6);
+		function fl_ClickToGoToWebPage_6() {
+			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
+		}
+		
+		this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_7);
+		function fl_ClickToGoToWebPage_7() {
+			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
+		}
+		
+		this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_8);
+		function fl_ClickToGoToWebPage_8() {
+			window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
+		}
+	}
+	this.frame_29 = function() {
+		/* Stop at This Frame*/
+		this.stop();
+		
+		/* Click to Go to Frame and Play*/
+		this.Shader_Btn_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_4() {
+			this.gotoAndPlay(1);
+		}
+		
+		/* Click to Go to Web Page */
+		this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage_5);
+		function fl_ClickToGoToWebPage_5() {
+			window.open("http://jacplus.com.au/", "_blank");
+		}
+		
+		this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_12);
+		function fl_ClickToGoToWebPage_12() {
+			window.open("https://dominic.eplatform.co/", "_blank");
+		}
+		
+		this.PAT_Testing_btn.addEventListener("click", fl_ClickToGoToWebPage_13);
+		function fl_ClickToGoToWebPage_13() {
+			window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
+		}
+		
+		this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_17);
+		function fl_ClickToGoToWebPage_17() {
+			window.open("https://www.worldbookonline.com/?uid=dominic&amp;pwd=library", "_blank");
+		}
+		
+		this.EdSmart_btn.addEventListener("click", fl_ClickToGoToWebPage_18);
+		function fl_ClickToGoToWebPage_18() {
+			window.open("https://app.edsmart.com/signin", "_blank");
+		}
+		
+		this.EdHQ_btn.addEventListener("click", fl_ClickToGoToWebPage_19);
+		function fl_ClickToGoToWebPage_19() {
+			window.open("https://educationhq.com/news-home/", "_blank");
+		}
+		
+		this.Accessit_btn.addEventListener("click", fl_ClickToGoToWebPage_24);
+		function fl_ClickToGoToWebPage_24() {
+			window.open("https://au.accessit.online/DMN02/", "_blank");
+		}
+		
+		this.Renaissance_btn.addEventListener("click", fl_ClickToGoToWebPage_26);
+		function fl_ClickToGoToWebPage_26() {
+			window.open("https://auhosted5.renlearn.com.au/1458025/", "_blank");
+		}
+	}
+	this.frame_39 = function() {
+		/* Stop at This Frame*/
+		this.stop();
+		
+		/* Click to Go to Frame and Play*/
+		this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_4() {
+			this.gotoAndPlay(1);
+		}
+		
+		/* Click to Go to Web Page */
+		this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_11);
+		function fl_ClickToGoToWebPage_11() {
+			window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
+		}
+		
+		this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
+		function fl_ClickToGoToWebPage_21() {
+			window.open("https://media.digistormhosting.com.au/dominic/content/backgroundContent/Staff-Professional-Learning-Application-Fillable.pdf?mtime=20201014151718", "_blank");
+		}
+		
+		this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
+		function fl_ClickToGoToWebPage_22() {
+			window.open("https://ess.cloud.micropay.com.au/#/", "_blank");
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(10).call(this.frame_19).wait(10).call(this.frame_29).wait(10).call(this.frame_39).wait(1));
+
+	// sage_btn_anim
+	this.instance = new lib.sage_Oval();
+	this.instance.setTransform(225,510.2);
+	this.instance._off = true;
+	new cjs.ButtonHelper(this.instance, 0, 1, 2);
+
+	this.sage_btn = new lib.sage_Oval();
+	this.sage_btn.name = "sage_btn";
+	this.sage_btn.setTransform(689.2,507.35);
+	new cjs.ButtonHelper(this.sage_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},30).to({state:[{t:this.sage_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({_off:true,x:689.2,y:507.35},9).wait(1));
+
+	// Petty_Cash_btn_anim
+	this.instance_1 = new lib.Petty_Cash_Oval();
+	this.instance_1.setTransform(225,510.2);
+	this.instance_1._off = true;
+	new cjs.ButtonHelper(this.instance_1, 0, 1, 2);
+
+	this.Petty_Cash_btn = new lib.Petty_Cash_Oval();
+	this.Petty_Cash_btn.name = "Petty_Cash_btn";
+	this.Petty_Cash_btn.setTransform(317.75,510.2);
+	new cjs.ButtonHelper(this.Petty_Cash_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},30).to({state:[{t:this.Petty_Cash_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(30).to({_off:false},0).to({_off:true,x:317.75},9).wait(1));
+
+	// PL_Form_btn_anim
+	this.instance_2 = new lib.Leave_Application_Oval();
+	this.instance_2.setTransform(225,510.2);
+	this.instance_2._off = true;
+	new cjs.ButtonHelper(this.instance_2, 0, 1, 2);
+
+	this.PL_Form_btn = new lib.Leave_Application_Oval();
+	this.PL_Form_btn.name = "PL_Form_btn";
+	this.PL_Form_btn.setTransform(507.85,347.05);
+	new cjs.ButtonHelper(this.PL_Form_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},30).to({state:[{t:this.PL_Form_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(30).to({_off:false},0).to({_off:true,x:507.85,y:347.05},9).wait(1));
+
+	// Shader_3
+	this.instance_3 = new lib.Shader_Btn();
+	this.instance_3.setTransform(516.55,467.35);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
+
+	this.Shader_Btn_3 = new lib.Shader_Btn();
+	this.Shader_Btn_3.name = "Shader_Btn_3";
+	this.Shader_Btn_3.setTransform(516.55,467.35);
+	new cjs.ButtonHelper(this.Shader_Btn_3, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},30).to({state:[{t:this.Shader_Btn_3}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(30).to({_off:false},0).to({_off:true,alpha:1},9).wait(1));
+
+	// EdSmart_btn_anim
+	this.instance_4 = new lib.EdSmart_Oval();
+	this.instance_4.setTransform(225,402.05);
+	this.instance_4._off = true;
+	new cjs.ButtonHelper(this.instance_4, 0, 1, 2);
+
+	this.EdSmart_btn = new lib.EdSmart_Oval();
+	this.EdSmart_btn.name = "EdSmart_btn";
+	this.EdSmart_btn.setTransform(258.75,379.4);
+	new cjs.ButtonHelper(this.EdSmart_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},20).to({state:[{t:this.EdSmart_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(20).to({_off:false},0).to({_off:true,x:258.75,y:379.4},9).wait(11));
+
+	// Wheeler_eBooks_btn_anim
+	this.instance_5 = new lib.Wheelers_eBooks_Oval();
+	this.instance_5.setTransform(225,402.05);
+	this.instance_5._off = true;
+	new cjs.ButtonHelper(this.instance_5, 0, 1, 2);
+
+	this.Wheelers_eBooks_btn = new lib.Wheelers_eBooks_Oval();
+	this.Wheelers_eBooks_btn.name = "Wheelers_eBooks_btn";
+	this.Wheelers_eBooks_btn.setTransform(258.75,521.15);
+	new cjs.ButtonHelper(this.Wheelers_eBooks_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},20).to({state:[{t:this.Wheelers_eBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(20).to({_off:false},0).to({_off:true,x:258.75,y:521.15},9).wait(11));
+
+	// Worldbooks_btn_anim
+	this.instance_6 = new lib.Worldbooks_Oval();
+	this.instance_6.setTransform(225,402.05);
+	this.instance_6._off = true;
+	new cjs.ButtonHelper(this.instance_6, 0, 1, 2);
+
+	this.WorldBooks_btn = new lib.Worldbooks_Oval();
+	this.WorldBooks_btn.name = "WorldBooks_btn";
+	this.WorldBooks_btn.setTransform(340.35,662.95);
+	new cjs.ButtonHelper(this.WorldBooks_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},20).to({state:[{t:this.WorldBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(20).to({_off:false},0).to({_off:true,x:340.35,y:662.95},9).wait(11));
+
+	// Renaisance_btn_anim
+	this.instance_7 = new lib.Renaisance_Oval();
+	this.instance_7.setTransform(225,402.05);
+	this.instance_7._off = true;
+	new cjs.ButtonHelper(this.instance_7, 0, 1, 2);
+
+	this.Renaissance_btn = new lib.Renaisance_Oval();
+	this.Renaissance_btn.name = "Renaissance_btn";
+	this.Renaissance_btn.setTransform(683.6,662.95);
+	new cjs.ButtonHelper(this.Renaissance_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},20).to({state:[{t:this.Renaissance_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(20).to({_off:false},0).to({_off:true,x:683.6,y:662.95},9).wait(11));
+
+	// EdHQ_btn_anim
+	this.instance_8 = new lib.EdHQ_Oval();
+	this.instance_8.setTransform(225,402.05);
+	this.instance_8._off = true;
+	new cjs.ButtonHelper(this.instance_8, 0, 1, 2);
+
+	this.EdHQ_btn = new lib.EdHQ_Oval();
+	this.EdHQ_btn.name = "EdHQ_btn";
+	this.EdHQ_btn.setTransform(764.25,521.65);
+	new cjs.ButtonHelper(this.EdHQ_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},20).to({state:[{t:this.EdHQ_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(20).to({_off:false},0).to({_off:true,x:764.25,y:521.65},9).wait(11));
+
+	// Accessit_btn_anim
+	this.instance_9 = new lib.Accessit_Oval();
+	this.instance_9.setTransform(225,402.05);
+	this.instance_9._off = true;
+	new cjs.ButtonHelper(this.instance_9, 0, 1, 2);
+
+	this.Accessit_btn = new lib.Accessit_Oval();
+	this.Accessit_btn.name = "Accessit_btn";
+	this.Accessit_btn.setTransform(764.25,379.4);
+	new cjs.ButtonHelper(this.Accessit_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9}]},20).to({state:[{t:this.Accessit_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(20).to({_off:false},0).to({_off:true,x:764.25,y:379.4},9).wait(11));
+
+	// JacPlus_btn_anim
+	this.instance_10 = new lib.JacPlus_Oval();
+	this.instance_10.setTransform(225,402.05);
+	this.instance_10._off = true;
+	new cjs.ButtonHelper(this.instance_10, 0, 1, 2);
+
+	this.JacPLus_btn = new lib.JacPlus_Oval();
+	this.JacPLus_btn.name = "JacPLus_btn";
+	this.JacPLus_btn.setTransform(683.6,237.65);
+	new cjs.ButtonHelper(this.JacPLus_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},20).to({state:[{t:this.JacPLus_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({_off:true,x:683.6,y:237.65},9).wait(11));
+
+	// Pat_Testing_btn_anim
+	this.instance_11 = new lib.PAT_Testing_Oval();
+	this.instance_11.setTransform(225,402.05);
+	this.instance_11._off = true;
+	new cjs.ButtonHelper(this.instance_11, 0, 1, 2);
+
+	this.PAT_Testing_btn = new lib.PAT_Testing_Oval();
+	this.PAT_Testing_btn.name = "PAT_Testing_btn";
+	this.PAT_Testing_btn.setTransform(340.35,237.65);
+	new cjs.ButtonHelper(this.PAT_Testing_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_11}]},20).to({state:[{t:this.PAT_Testing_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({_off:true,x:340.35,y:237.65},9).wait(11));
+
+	// Shader_2
+	this.instance_12 = new lib.Shader_Btn();
+	this.instance_12.setTransform(516.55,467.35);
+	this.instance_12.alpha = 0;
+	this.instance_12._off = true;
+	new cjs.ButtonHelper(this.instance_12, 0, 1, 1);
+
+	this.Shader_Btn_2 = new lib.Shader_Btn();
+	this.Shader_Btn_2.name = "Shader_Btn_2";
+	this.Shader_Btn_2.setTransform(516.55,467.35);
+	new cjs.ButtonHelper(this.Shader_Btn_2, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},20).to({state:[{t:this.Shader_Btn_2}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(20).to({_off:false},0).to({_off:true,alpha:1},9).wait(11));
+
+	// Incident_Report_btn_anim
+	this.instance_13 = new lib.Incident_Report_Oval();
+	this.instance_13.setTransform(507.85,185.4);
+	this.instance_13._off = true;
+	new cjs.ButtonHelper(this.instance_13, 0, 1, 2);
+
+	this.Incident_Report_btn = new lib.Incident_Report_Oval();
+	this.Incident_Report_btn.name = "Incident_Report_btn";
+	this.Incident_Report_btn.setTransform(689.2,510.05);
+	new cjs.ButtonHelper(this.Incident_Report_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_13}]},10).to({state:[{t:this.Incident_Report_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({_off:true,x:689.2,y:510.05},9).wait(21));
+
+	// Maintenance_Request_btn_anim
+	this.instance_14 = new lib.Maintenance_Request_Oval();
+	this.instance_14.setTransform(507.85,185.4);
+	this.instance_14._off = true;
+	new cjs.ButtonHelper(this.instance_14, 0, 1, 2);
+
+	this.Maintenance_btn = new lib.Maintenance_Request_Oval();
+	this.Maintenance_btn.name = "Maintenance_btn";
+	this.Maintenance_btn.setTransform(317.75,510.05);
+	new cjs.ButtonHelper(this.Maintenance_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.Maintenance_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(10).to({_off:false},0).to({_off:true,x:317.75,y:510.05},9).wait(21));
+
+	// E_Learning_ticket_btn_anim
+	this.instance_15 = new lib.E_Learning_Ticket_Oval();
+	this.instance_15.setTransform(507.85,185.4);
+	this.instance_15._off = true;
+	new cjs.ButtonHelper(this.instance_15, 0, 1, 2);
+
+	this.E_Learning_Submit_btn = new lib.E_Learning_Ticket_Oval();
+	this.E_Learning_Submit_btn.name = "E_Learning_Submit_btn";
+	this.E_Learning_Submit_btn.setTransform(507.85,347.05);
+	new cjs.ButtonHelper(this.E_Learning_Submit_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15}]},10).to({state:[{t:this.E_Learning_Submit_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(10).to({_off:false},0).to({_off:true,y:347.05},9).wait(21));
+
+	// Shader_1
+	this.instance_16 = new lib.Shader_Btn();
+	this.instance_16.setTransform(516.55,467.35);
+	this.instance_16.alpha = 0;
+	this.instance_16._off = true;
+	new cjs.ButtonHelper(this.instance_16, 0, 1, 1);
+
+	this.Shader_Btn_1 = new lib.Shader_Btn();
+	this.Shader_Btn_1.name = "Shader_Btn_1";
+	this.Shader_Btn_1.setTransform(516.55,467.35);
+	new cjs.ButtonHelper(this.Shader_Btn_1, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.Shader_Btn_1}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,alpha:1},9).wait(21));
+
 	// Helpdesk_btn_anim
 	this.Helpdesk_btn = new lib.Helpdesk_Oval();
 	this.Helpdesk_btn.name = "Helpdesk_btn";
 	this.Helpdesk_btn.setTransform(509.5,185.75);
 	new cjs.ButtonHelper(this.Helpdesk_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Helpdesk_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.Helpdesk_btn).wait(40));
 
 	// Consent2Go_btn_anim
 	this.Consent2Go_btn = new lib.Consent2Go_Oval();
@@ -2160,7 +3186,7 @@ if (reversed == null) { reversed = false; }
 	this.Consent2Go_btn.setTransform(795.55,185.75);
 	new cjs.ButtonHelper(this.Consent2Go_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Consent2Go_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.Consent2Go_btn).wait(40));
 
 	// SharePoint_btn_anim
 	this.SharePoint_btn = new lib.SharePoint_Oval();
@@ -2168,15 +3194,15 @@ if (reversed == null) { reversed = false; }
 	this.SharePoint_btn.setTransform(225,185.75);
 	new cjs.ButtonHelper(this.SharePoint_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.SharePoint_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.SharePoint_btn).wait(40));
 
 	// Papercut_btn_anim
-	this.Papercut_btn = new lib.Papercut_Oval();
-	this.Papercut_btn.name = "Papercut_btn";
-	this.Papercut_btn.setTransform(225.5,294.4);
-	new cjs.ButtonHelper(this.Papercut_btn, 0, 1, 2);
+	this.PaperCut_btn = new lib.Papercut_Oval();
+	this.PaperCut_btn.name = "PaperCut_btn";
+	this.PaperCut_btn.setTransform(225.5,294.4);
+	new cjs.ButtonHelper(this.PaperCut_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Papercut_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.PaperCut_btn).wait(40));
 
 	// TnL_Resources_btn_anim
 	this.TnL_Resources_btn = new lib.TL_Resources_Oval();
@@ -2184,7 +3210,7 @@ if (reversed == null) { reversed = false; }
 	this.TnL_Resources_btn.setTransform(225,402.05);
 	new cjs.ButtonHelper(this.TnL_Resources_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.TnL_Resources_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.TnL_Resources_btn).wait(40));
 
 	// Forms_Adim_btn_anim
 	this.Forms_Adim_btn = new lib.FormsAdim_Oval();
@@ -2192,7 +3218,7 @@ if (reversed == null) { reversed = false; }
 	this.Forms_Adim_btn.setTransform(225,510.2);
 	new cjs.ButtonHelper(this.Forms_Adim_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Forms_Adim_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.Forms_Adim_btn).wait(40));
 
 	// SOBS_btn_anim
 	this.SOBS_btn = new lib.SOBS_Oval();
@@ -2200,15 +3226,15 @@ if (reversed == null) { reversed = false; }
 	this.SOBS_btn.setTransform(225,618.35);
 	new cjs.ButtonHelper(this.SOBS_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.SOBS_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.SOBS_btn).wait(40));
 
 	// SEQTA_btn_anim
-	this.SEQTA_btn = new lib.SEQTA_Oval_btn();
-	this.SEQTA_btn.name = "SEQTA_btn";
-	this.SEQTA_btn.setTransform(225,726.65);
-	new cjs.ButtonHelper(this.SEQTA_btn, 0, 1, 2);
+	this.SEQTA_Resources_btn = new lib.SEQTA_Oval_btn();
+	this.SEQTA_Resources_btn.name = "SEQTA_Resources_btn";
+	this.SEQTA_Resources_btn.setTransform(225,726.65);
+	new cjs.ButtonHelper(this.SEQTA_Resources_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.SEQTA_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.SEQTA_Resources_btn).wait(40));
 
 	// Complispace_btn_anim
 	this.Complispace_btn = new lib.Complispace_Oval();
@@ -2216,7 +3242,7 @@ if (reversed == null) { reversed = false; }
 	this.Complispace_btn.setTransform(510,726.65);
 	new cjs.ButtonHelper(this.Complispace_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Complispace_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.Complispace_btn).wait(40));
 
 	// Synergetic_btn_anim
 	this.Synergetic_btn = new lib.Synergetic_Oval();
@@ -2224,15 +3250,15 @@ if (reversed == null) { reversed = false; }
 	this.Synergetic_btn.setTransform(795.05,726.65);
 	new cjs.ButtonHelper(this.Synergetic_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Synergetic_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.Synergetic_btn).wait(40));
 
 	// Cyberhound_btn_anim
-	this.Cyberhound_btn = new lib.Cyberhound_Oval();
-	this.Cyberhound_btn.name = "Cyberhound_btn";
-	this.Cyberhound_btn.setTransform(795.05,618.85);
-	new cjs.ButtonHelper(this.Cyberhound_btn, 0, 1, 2);
+	this.CyberHound_btn = new lib.Cyberhound_Oval();
+	this.CyberHound_btn.name = "CyberHound_btn";
+	this.CyberHound_btn.setTransform(795.05,618.85);
+	new cjs.ButtonHelper(this.CyberHound_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Cyberhound_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.CyberHound_btn).wait(40));
 
 	// OneDrive_btn_anim
 	this.OneDrive_btn = new lib.OneDrive_Oval();
@@ -2240,39 +3266,41 @@ if (reversed == null) { reversed = false; }
 	this.OneDrive_btn.setTransform(795.05,294.4);
 	new cjs.ButtonHelper(this.OneDrive_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.OneDrive_btn).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.OneDrive_btn).wait(40));
 
 	// ClickView_btn_anim
-	this.instance = new lib.ClickView_Oval();
-	this.instance.setTransform(795.05,402.05);
-	new cjs.ButtonHelper(this.instance, 0, 1, 2);
+	this.ClickView_btn = new lib.ClickView_Oval();
+	this.ClickView_btn.name = "ClickView_btn";
+	this.ClickView_btn.setTransform(795.05,402.05);
+	new cjs.ButtonHelper(this.ClickView_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.ClickView_btn).wait(40));
 
 	// ClicktoPray_btn_anim
-	this.instance_1 = new lib.ClicktoPray_Oval();
-	this.instance_1.setTransform(795.05,510.2);
-	new cjs.ButtonHelper(this.instance_1, 0, 1, 2);
+	this.ClicktoPlay_btn = new lib.ClicktoPray_Oval();
+	this.ClicktoPlay_btn.name = "ClicktoPlay_btn";
+	this.ClicktoPlay_btn.setTransform(795.05,510.2);
+	new cjs.ButtonHelper(this.ClicktoPlay_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.ClicktoPlay_btn).wait(40));
 
 	// Dominic_Crest
-	this.instance_2 = new lib.Crestcolourforanimation2_gif();
-	this.instance_2.setTransform(507.85,454.7,1,1,0,0,0,150,194);
+	this.instance_17 = new lib.Crestcolourforanimation2_gif();
+	this.instance_17.setTransform(507.85,454.7,1,1,0,0,0,150,194);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(40));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(596,573.8,335.6,209.5);
+p.nominalBounds = new cjs.Rectangle(590.6,570.4,343.5,212.89999999999998);
 // library properties:
 lib.properties = {
 	id: '2678EAE5A524BA44A37CE284A73116A7',
 	width: 1015,
 	height: 870,
-	fps: 25,
-	color: "#1F315A",
+	fps: 24,
+	color: "#BFBFBF",
 	opacity: 0.00,
 	manifest: [
 		{src:"images/Teach_Landing_atlas_1.png", id:"Teach_Landing_atlas_1"},
