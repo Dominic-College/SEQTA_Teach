@@ -28,18 +28,11 @@ p {
 	text-align: center;
 }
 
-.dom-header {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-}
-
 .headBG {
 	position: fixed;
 	top: 0px;
 	width: 100%;
 	height: 110px;
-	z-index: 99;
 }
 
 .head01 {
@@ -47,7 +40,6 @@ p {
 	top: 0;
 	left: 0;
 	height: 96px;
-	z-index: 100;
 }
 
 .foot01 {
@@ -56,9 +48,55 @@ p {
 	left: 0;
 	height: 50px;
 	width: 100%;
-	z-index: 99;
 }
 
+@media screen and (max-width: 992px) {
+	.headBG {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 93px;
+	}
+
+	.head01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 82px;
+	}
+
+	.foot01 {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 42px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.headBG {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 55px;
+	}
+
+	.head01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 48px;
+	}
+
+	.foot01 {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 25px;
+		width: 100%;
+	}
+}
 .content-centre {
 	display: flex;
 	text-align: center;
