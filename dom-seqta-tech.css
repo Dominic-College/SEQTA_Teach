@@ -32,21 +32,21 @@ p {
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	height: 110px;
+	height: 7.4vw;
 }
 
 .head01 {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 96px;
+	height: 6.5vw;
 }
 
 .foot01 {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	height: 50px;
+	height: 4.6vw;
 	width: 100%;
 }
 
@@ -56,48 +56,42 @@ p {
 	font-weight: 600;
 	font-style: normal;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	text-shadow: 3px 3px 8px #000000;
-	bottom: -25px;
 	text-align: center;
+	vertical-align: baseline;
 	width: 100%;
+	white-space: nowrap;
 }
 
-@media screen and (max-width: 992px) {
+@media (min-width: 5em) {
+	.footer_text {
+		padding-bottom: calc(2em + 1.5 * (100vw - 20em) / 50);
+	}
+}
+
+/*@media screen and (max-width: 992px) {
 	.headBG {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 93px;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 93px;
 	}
 
 	.head01 {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 82px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 82px;
 	}
 
 	.foot01 {
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		height: 42px;
+		height: auto;
 		width: 100%;
 	}
-	
-	.footer_text {
-	position: fixed;
-	font-family: trajan-pro-3, serif;
-	font-weight: 600;
-	font-style: normal;
-	color: white;
-	font-size: 1.2em;
-	text-shadow: 3px 3px 8px #000000;
-	bottom: -25px;
-	text-align: center;
-	width: 100%;
-}
 	
 }
 
@@ -124,20 +118,8 @@ p {
 		width: 100%;
 	}
 	
-	.footer_text {
-		position: fixed;
-		font-family: trajan-pro-3, serif;
-		font-weight: 600;
-		font-style: normal;
-		color: white;
-		font-size: 1em;
-		text-shadow: 3px 3px 8px #000000;
-		bottom: -25px;
-		text-align: center;
-		width: 100%;
 }
-	
-}
+*/
 .content-centre {
 	display: flex;
 	text-align: center;
