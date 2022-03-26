@@ -2831,7 +2831,7 @@ if (reversed == null) { reversed = false; }
 		/* Click to Go to Frame and Play*/
 		this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_6() {
-			this.gotoAndPlay(1);
+			this.gotoAndPlay(5);
 		}
 		
 		/* Click to Go to Web Page */
@@ -2864,12 +2864,12 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		/* Click to Go to Web Page */
-		this.JacPLus_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_8.bind(this));
+		/*this.JacPLus_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_8.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_8() {
 			this.gotoAndPlay(5);
 			window.open("http://jacplus.com.au/", "_blank");
 		}
-		
+		*/
 		this.Accessit_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_9.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_9() {
 			this.gotoAndPlay(5);
@@ -2911,6 +2911,12 @@ if (reversed == null) { reversed = false; }
 			this.gotoAndPlay(5);
 			window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
 		}
+		/* Click to Go to Web Page*/
+		
+		this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage);
+		function fl_ClickToGoToWebPage() {
+			window.open("http://jacplus.com.au/", "_blank");
+		}
 	}
 	this.frame_39 = function() {
 		/* Stop at This Frame*/
@@ -2919,7 +2925,7 @@ if (reversed == null) { reversed = false; }
 		/* Click to Go to Frame and Play*/
 		this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_4() {
-			this.gotoAndPlay(1);
+			this.gotoAndPlay(5);
 		}
 		
 		/* Click to Go to Web Page */
