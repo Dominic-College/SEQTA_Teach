@@ -50,6 +50,13 @@ p {
 	width: 100%;
 }
 
+.footer_banner {
+	position: absolute;
+	left: 15vw;
+	height: 4vw;
+	width: 70vw;
+}
+
 .footer_text {
 	position: fixed;
 	font-family: trajan-pro-3, serif;

@@ -32,3 +32,6 @@
 	</footer>
 
 </body>
+
+			<img src="Salesian_Footer_Banner.gif" alt="">
+<!--			<p class="footer_text">GOSPEL VALUES ~ RESPECT ~ HONESTY ~ RESPONSIBILITY ~ DILIGENCE ~ SAFETY</p>-->
