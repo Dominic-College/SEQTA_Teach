@@ -2835,18 +2835,25 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		/* Click to Go to Web Page */
-		this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_6);
+		if(!this.alreadyExecuted){
+			this.Maintenance_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
+			this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_7.bind(this));
+			this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_8.bind(this));
+			this.alreadyExecuted=true;
+		}
+		
 		function fl_ClickToGoToWebPage_6() {
+			this.gotoAndPlay(5)
 			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
 		}
 		
-		this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_7);
 		function fl_ClickToGoToWebPage_7() {
+			this.gotoAndPlay(5)
 			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
 		}
 		
-		this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_8);
 		function fl_ClickToGoToWebPage_8() {
+			this.gotoAndPlay(5)
 			window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
 		}
 	}
@@ -2924,18 +2931,25 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		/* Click to Go to Web Page */
-		this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_11);
+		if(!this.alreadyExecuted){
+			this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_11.bind(this));
+			this.PL_Form_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFramee_21.bind(this));
+			this.sage_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_22.bind(this));
+			this.alreadyExecuted=true;
+		}
+		
 		function fl_ClickToGoToWebPage_11() {
+			this.gotoAndPlay(5)
 			window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
 		}
 		
-		this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
 		function fl_ClickToGoToWebPage_21() {
+			this.gotoAndPlay(5)
 			window.open("https://media.digistormhosting.com.au/dominic/content/backgroundContent/Staff-Professional-Learning-Application-Fillable.pdf?mtime=20201014151718", "_blank");
 		}
 		
-		this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
 		function fl_ClickToGoToWebPage_22() {
+			this.gotoAndPlay(5)
 			window.open("https://ess.cloud.micropay.com.au/#/", "_blank");
 		}
 	}
@@ -3315,12 +3329,12 @@ lib.properties = {
 	color: "#BFBFBF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/Teach_Landing_atlas_1.png?1648596261532", id:"Teach_Landing_atlas_1"},
-		{src:"images/Teach_Landing_atlas_2.png?1648596261533", id:"Teach_Landing_atlas_2"},
-		{src:"images/Teach_Landing_atlas_3.png?1648596261533", id:"Teach_Landing_atlas_3"},
-		{src:"images/Teach_Landing_atlas_4.png?1648596261534", id:"Teach_Landing_atlas_4"},
-		{src:"images/Teach_Landing_atlas_5.png?1648596261535", id:"Teach_Landing_atlas_5"},
-		{src:"images/Teach_Landing_atlas_6.png?1648596261535", id:"Teach_Landing_atlas_6"}
+		{src:"images/Teach_Landing_atlas_1.png", id:"Teach_Landing_atlas_1"},
+		{src:"images/Teach_Landing_atlas_2.png", id:"Teach_Landing_atlas_2"},
+		{src:"images/Teach_Landing_atlas_3.png", id:"Teach_Landing_atlas_3"},
+		{src:"images/Teach_Landing_atlas_4.png", id:"Teach_Landing_atlas_4"},
+		{src:"images/Teach_Landing_atlas_5.png", id:"Teach_Landing_atlas_5"},
+		{src:"images/Teach_Landing_atlas_6.png", id:"Teach_Landing_atlas_6"}
 	],
 	preloads: []
 };
