@@ -2843,17 +2843,17 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		function fl_ClickToGoToWebPage_6() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
 		}
 		
 		function fl_ClickToGoToWebPage_7() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
 		}
 		
 		function fl_ClickToGoToWebPage_8() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
 		}
 	}
@@ -2939,17 +2939,17 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		function fl_ClickToGoToWebPage_11() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
 		}
 		
 		function fl_ClickToGoToWebPage_21() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("https://media.digistormhosting.com.au/dominic/content/backgroundContent/Staff-Professional-Learning-Application-Fillable.pdf?mtime=20201014151718", "_blank");
 		}
 		
 		function fl_ClickToGoToWebPage_22() {
-			this.gotoAndPlay(5)
+			this.gotoAndPlay(5);
 			window.open("https://ess.cloud.micropay.com.au/#/", "_blank");
 		}
 	}
