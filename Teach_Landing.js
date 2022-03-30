@@ -1415,12 +1415,23 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Layer_2
+	this.text = new cjs.Text("Click to return ", "14px 'Trajan Pro 3 Semibold'", "#A2863D");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 13;
+	this.text.lineWidth = 85;
+	this.text.parent = this;
+	this.text.setTransform(-10.05,-31.95);
+	this.text._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({_off:false},0).wait(2));
+
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#1F315A").s().p("EhCeAx2MAAAhjrMCE9AAAMAAABjrg");
 	this.shape.setTransform(-8,-13);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(3));
 
 	this._renderFirstFrame();
 
@@ -2982,12 +2993,12 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.setTransform(516.55,467.35);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
-	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 2);
 
 	this.Shader_Btn_3 = new lib.Shader_Btn();
 	this.Shader_Btn_3.name = "Shader_Btn_3";
 	this.Shader_Btn_3.setTransform(516.55,467.35);
-	new cjs.ButtonHelper(this.Shader_Btn_3, 0, 1, 1);
+	new cjs.ButtonHelper(this.Shader_Btn_3, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},30).to({state:[{t:this.Shader_Btn_3}]},9).wait(1));
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(30).to({_off:false},0).to({_off:true,alpha:1},9).wait(1));
@@ -3109,12 +3120,12 @@ if (reversed == null) { reversed = false; }
 	this.instance_12.setTransform(516.55,467.35);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
-	new cjs.ButtonHelper(this.instance_12, 0, 1, 1);
+	new cjs.ButtonHelper(this.instance_12, 0, 1, 2);
 
 	this.Shader_Btn_2 = new lib.Shader_Btn();
 	this.Shader_Btn_2.name = "Shader_Btn_2";
 	this.Shader_Btn_2.setTransform(516.55,467.35);
-	new cjs.ButtonHelper(this.Shader_Btn_2, 0, 1, 1);
+	new cjs.ButtonHelper(this.Shader_Btn_2, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},20).to({state:[{t:this.Shader_Btn_2}]},9).to({state:[]},1).wait(10));
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(20).to({_off:false},0).to({_off:true,alpha:1},9).wait(11));
@@ -3166,12 +3177,12 @@ if (reversed == null) { reversed = false; }
 	this.instance_16.setTransform(516.55,467.35);
 	this.instance_16.alpha = 0;
 	this.instance_16._off = true;
-	new cjs.ButtonHelper(this.instance_16, 0, 1, 1);
+	new cjs.ButtonHelper(this.instance_16, 0, 1, 2);
 
 	this.Shader_Btn_1 = new lib.Shader_Btn();
 	this.Shader_Btn_1.name = "Shader_Btn_1";
 	this.Shader_Btn_1.setTransform(516.55,467.35);
-	new cjs.ButtonHelper(this.Shader_Btn_1, 0, 1, 1);
+	new cjs.ButtonHelper(this.Shader_Btn_1, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.Shader_Btn_1}]},9).to({state:[]},1).wait(20));
 	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,alpha:1},9).wait(21));
