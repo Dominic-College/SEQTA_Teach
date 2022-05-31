@@ -3,12 +3,11 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Teach_Landing_atlas_1", frames: [[0,1170,273,94],[275,1170,273,94],[550,1170,273,94],[825,1170,273,94],[1100,1170,273,94],[0,0,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[0,390,300,388],[302,390,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[0,780,300,388],[302,780,300,388],[604,780,300,388],[906,780,300,388],[1208,780,300,388],[1510,780,300,388],[1375,1170,273,94],[1650,1170,273,94],[0,1266,273,94],[275,1266,273,94],[550,1266,273,94],[825,1266,273,94],[825,1362,273,93],[1100,1362,273,93],[1375,1362,273,93],[1650,1362,273,93],[1100,1266,273,94],[825,1457,273,93],[0,1458,273,93],[275,1458,273,93],[550,1458,273,93],[1100,1457,273,93],[1375,1266,273,94],[1650,1266,273,94],[1375,1457,273,93],[0,1362,273,94],[275,1362,273,94],[1650,1457,273,93],[550,1362,273,94]]},
-		{name:"Teach_Landing_atlas_2", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
-		{name:"Teach_Landing_atlas_3", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
-		{name:"Teach_Landing_atlas_4", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
-		{name:"Teach_Landing_atlas_5", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]},
-		{name:"Teach_Landing_atlas_6", frames: [[0,0,300,388],[0,390,300,388],[0,780,300,388],[0,1170,300,388],[0,1560,300,388],[302,0,300,388],[604,0,300,388],[906,0,300,388],[1208,0,300,388],[1510,0,300,388],[302,390,300,388],[302,780,300,388],[302,1170,300,388],[302,1560,300,388],[604,390,300,388],[906,390,300,388],[1208,390,300,388],[1510,390,300,388],[604,780,300,388],[604,1170,300,388],[604,1560,300,388],[906,780,300,388],[906,1170,300,388],[906,1560,300,388],[1208,780,300,388],[1510,780,300,388],[1208,1170,300,388],[1208,1560,300,388],[1510,1170,300,388],[1510,1560,300,388]]}
+		{name:"Teach_Landing_atlas_1", frames: [[1505,0,273,94],[1505,96,273,94],[1505,192,273,94],[1505,288,273,94],[1505,384,273,94],[0,0,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[0,389,273,94],[275,389,273,94],[550,389,273,94],[825,389,273,94],[1100,389,273,94],[1375,480,273,94],[1375,576,273,93],[1650,576,273,93],[0,581,273,93],[275,581,273,93],[1650,480,273,94],[550,581,273,93],[825,581,273,93],[1100,581,273,93],[1375,671,273,93],[1650,671,273,93],[0,485,273,94],[275,485,273,94],[0,676,273,93],[550,485,273,94],[825,485,273,94],[275,676,273,93],[1100,485,273,94]]},
+		{name:"Teach_Landing_atlas_2", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
+		{name:"Teach_Landing_atlas_3", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
+		{name:"Teach_Landing_atlas_4", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
+		{name:"Teach_Landing_atlas_5", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]}
 ];
 
 
@@ -67,1339 +66,1038 @@ lib.ssMetadata = [
 
 
 
-(lib.Crestcolourforanimation2_0 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_1 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_10 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_100 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_101 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_102 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_103 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_104 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_105 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_106 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_107 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_108 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_109 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_11 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_110 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_111 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_112 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_113 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_114 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_115 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_116 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_117 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_118 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_119 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_12 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_120 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_121 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_122 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_123 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_124 = function() {
-	this.initialize(ss["Teach_Landing_atlas_6"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_125 = function() {
+(lib.Crestcolourforanimation_300x388_0 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_126 = function() {
+(lib.Crestcolourforanimation_300x388_1 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_127 = function() {
+(lib.Crestcolourforanimation_300x388_10 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_128 = function() {
+(lib.Crestcolourforanimation_300x388_100 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_129 = function() {
+(lib.Crestcolourforanimation_300x388_101 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_13 = function() {
+(lib.Crestcolourforanimation_300x388_102 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_130 = function() {
+(lib.Crestcolourforanimation_300x388_103 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_131 = function() {
+(lib.Crestcolourforanimation_300x388_104 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_132 = function() {
+(lib.Crestcolourforanimation_300x388_105 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_133 = function() {
+(lib.Crestcolourforanimation_300x388_106 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_134 = function() {
+(lib.Crestcolourforanimation_300x388_107 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_135 = function() {
+(lib.Crestcolourforanimation_300x388_108 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_136 = function() {
+(lib.Crestcolourforanimation_300x388_109 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_137 = function() {
+(lib.Crestcolourforanimation_300x388_11 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_138 = function() {
+(lib.Crestcolourforanimation_300x388_110 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_139 = function() {
+(lib.Crestcolourforanimation_300x388_111 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_14 = function() {
+(lib.Crestcolourforanimation_300x388_112 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_140 = function() {
+(lib.Crestcolourforanimation_300x388_113 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_141 = function() {
+(lib.Crestcolourforanimation_300x388_114 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_142 = function() {
+(lib.Crestcolourforanimation_300x388_115 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_143 = function() {
+(lib.Crestcolourforanimation_300x388_116 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_144 = function() {
+(lib.Crestcolourforanimation_300x388_117 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_145 = function() {
+(lib.Crestcolourforanimation_300x388_118 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_146 = function() {
+(lib.Crestcolourforanimation_300x388_119 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_147 = function() {
+(lib.Crestcolourforanimation_300x388_12 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_148 = function() {
+(lib.Crestcolourforanimation_300x388_120 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_149 = function() {
+(lib.Crestcolourforanimation_300x388_121 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_15 = function() {
+(lib.Crestcolourforanimation_300x388_122 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_150 = function() {
+(lib.Crestcolourforanimation_300x388_123 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_151 = function() {
+(lib.Crestcolourforanimation_300x388_124 = function() {
 	this.initialize(ss["Teach_Landing_atlas_5"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_152 = function() {
+(lib.Crestcolourforanimation_300x388_13 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_153 = function() {
+(lib.Crestcolourforanimation_300x388_14 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_154 = function() {
+(lib.Crestcolourforanimation_300x388_15 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_155 = function() {
+(lib.Crestcolourforanimation_300x388_16 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_156 = function() {
+(lib.Crestcolourforanimation_300x388_17 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_157 = function() {
+(lib.Crestcolourforanimation_300x388_18 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_158 = function() {
+(lib.Crestcolourforanimation_300x388_19 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_159 = function() {
+(lib.Crestcolourforanimation_300x388_2 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_16 = function() {
+(lib.Crestcolourforanimation_300x388_20 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_160 = function() {
+(lib.Crestcolourforanimation_300x388_21 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_161 = function() {
+(lib.Crestcolourforanimation_300x388_22 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_162 = function() {
+(lib.Crestcolourforanimation_300x388_23 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_163 = function() {
+(lib.Crestcolourforanimation_300x388_24 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_164 = function() {
+(lib.Crestcolourforanimation_300x388_25 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_165 = function() {
+(lib.Crestcolourforanimation_300x388_26 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_166 = function() {
+(lib.Crestcolourforanimation_300x388_27 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_167 = function() {
+(lib.Crestcolourforanimation_300x388_28 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_17 = function() {
+(lib.Crestcolourforanimation_300x388_29 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_18 = function() {
+(lib.Crestcolourforanimation_300x388_3 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_19 = function() {
+(lib.Crestcolourforanimation_300x388_30 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_2 = function() {
+(lib.Crestcolourforanimation_300x388_31 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_20 = function() {
+(lib.Crestcolourforanimation_300x388_32 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_21 = function() {
+(lib.Crestcolourforanimation_300x388_33 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_22 = function() {
+(lib.Crestcolourforanimation_300x388_34 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_23 = function() {
+(lib.Crestcolourforanimation_300x388_35 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_24 = function() {
+(lib.Crestcolourforanimation_300x388_36 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_25 = function() {
+(lib.Crestcolourforanimation_300x388_37 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_26 = function() {
+(lib.Crestcolourforanimation_300x388_38 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_27 = function() {
+(lib.Crestcolourforanimation_300x388_39 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_28 = function() {
+(lib.Crestcolourforanimation_300x388_4 = function() {
 	this.initialize(ss["Teach_Landing_atlas_4"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_29 = function() {
+(lib.Crestcolourforanimation_300x388_40 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_3 = function() {
+(lib.Crestcolourforanimation_300x388_41 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_30 = function() {
+(lib.Crestcolourforanimation_300x388_42 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_31 = function() {
+(lib.Crestcolourforanimation_300x388_43 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_32 = function() {
+(lib.Crestcolourforanimation_300x388_44 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_33 = function() {
+(lib.Crestcolourforanimation_300x388_45 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_34 = function() {
+(lib.Crestcolourforanimation_300x388_46 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_35 = function() {
+(lib.Crestcolourforanimation_300x388_47 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_36 = function() {
+(lib.Crestcolourforanimation_300x388_48 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_37 = function() {
+(lib.Crestcolourforanimation_300x388_49 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_38 = function() {
+(lib.Crestcolourforanimation_300x388_5 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_39 = function() {
+(lib.Crestcolourforanimation_300x388_50 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_4 = function() {
+(lib.Crestcolourforanimation_300x388_51 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_40 = function() {
+(lib.Crestcolourforanimation_300x388_52 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_41 = function() {
+(lib.Crestcolourforanimation_300x388_53 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_42 = function() {
+(lib.Crestcolourforanimation_300x388_54 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_43 = function() {
+(lib.Crestcolourforanimation_300x388_55 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_44 = function() {
+(lib.Crestcolourforanimation_300x388_56 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_45 = function() {
+(lib.Crestcolourforanimation_300x388_57 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_46 = function() {
+(lib.Crestcolourforanimation_300x388_58 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_47 = function() {
+(lib.Crestcolourforanimation_300x388_59 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_48 = function() {
+(lib.Crestcolourforanimation_300x388_6 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_49 = function() {
+(lib.Crestcolourforanimation_300x388_60 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_5 = function() {
+(lib.Crestcolourforanimation_300x388_61 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_50 = function() {
+(lib.Crestcolourforanimation_300x388_62 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_51 = function() {
+(lib.Crestcolourforanimation_300x388_63 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_52 = function() {
+(lib.Crestcolourforanimation_300x388_64 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_53 = function() {
+(lib.Crestcolourforanimation_300x388_65 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_54 = function() {
+(lib.Crestcolourforanimation_300x388_66 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_55 = function() {
+(lib.Crestcolourforanimation_300x388_67 = function() {
 	this.initialize(ss["Teach_Landing_atlas_3"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_56 = function() {
+(lib.Crestcolourforanimation_300x388_68 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_57 = function() {
+(lib.Crestcolourforanimation_300x388_69 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_58 = function() {
+(lib.Crestcolourforanimation_300x388_7 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_59 = function() {
+(lib.Crestcolourforanimation_300x388_70 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_6 = function() {
+(lib.Crestcolourforanimation_300x388_71 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_60 = function() {
+(lib.Crestcolourforanimation_300x388_72 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_61 = function() {
+(lib.Crestcolourforanimation_300x388_73 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_62 = function() {
+(lib.Crestcolourforanimation_300x388_74 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_63 = function() {
+(lib.Crestcolourforanimation_300x388_75 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_64 = function() {
+(lib.Crestcolourforanimation_300x388_76 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_65 = function() {
+(lib.Crestcolourforanimation_300x388_77 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_66 = function() {
+(lib.Crestcolourforanimation_300x388_78 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_67 = function() {
+(lib.Crestcolourforanimation_300x388_79 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_68 = function() {
+(lib.Crestcolourforanimation_300x388_8 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_69 = function() {
+(lib.Crestcolourforanimation_300x388_80 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_7 = function() {
+(lib.Crestcolourforanimation_300x388_81 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_70 = function() {
+(lib.Crestcolourforanimation_300x388_82 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_71 = function() {
+(lib.Crestcolourforanimation_300x388_83 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_72 = function() {
+(lib.Crestcolourforanimation_300x388_84 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_73 = function() {
+(lib.Crestcolourforanimation_300x388_85 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_74 = function() {
+(lib.Crestcolourforanimation_300x388_86 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_75 = function() {
+(lib.Crestcolourforanimation_300x388_87 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_76 = function() {
+(lib.Crestcolourforanimation_300x388_88 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_77 = function() {
+(lib.Crestcolourforanimation_300x388_89 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_78 = function() {
+(lib.Crestcolourforanimation_300x388_9 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_79 = function() {
+(lib.Crestcolourforanimation_300x388_90 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_8 = function() {
+(lib.Crestcolourforanimation_300x388_91 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_80 = function() {
+(lib.Crestcolourforanimation_300x388_92 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_81 = function() {
+(lib.Crestcolourforanimation_300x388_93 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_82 = function() {
+(lib.Crestcolourforanimation_300x388_94 = function() {
 	this.initialize(ss["Teach_Landing_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_83 = function() {
+(lib.Crestcolourforanimation_300x388_95 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_84 = function() {
+(lib.Crestcolourforanimation_300x388_96 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_85 = function() {
+(lib.Crestcolourforanimation_300x388_97 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_86 = function() {
+(lib.Crestcolourforanimation_300x388_98 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Crestcolourforanimation2_87 = function() {
+(lib.Crestcolourforanimation_300x388_99 = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_88 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_89 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_9 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_90 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_91 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_92 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_93 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_94 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_95 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_96 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_97 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_98 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Crestcolourforanimation2_99 = function() {
-	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Cyberhound_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ELearning_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.EdHQ_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.EdSmart_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(26);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.FormsAdim_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(27);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Helpdesk_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(28);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Incident_Report_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(29);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.JacPlus_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(30);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Leave_Application03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(31);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Maintenance_Request_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(32);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.OneDrive_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(33);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Papercut03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(34);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PAT_Testing_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(35);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Petty_Cash_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(36);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Renaisance_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(37);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sage_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(38);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SEQTA_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(39);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SharePoint_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(40);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SOBS_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(41);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Synergetic_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(42);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.TL_Resources_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(43);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Wheelers_eBooks_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(44);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Worldbooks_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
-	this.gotoAndStop(45);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1439,7 +1137,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-433.5,-332,851,638);
 
 
-(lib.Crestcolourforanimation2_gif = function(mode,startPosition,loop,reversed) {
+(lib.Crestcolourforanimation_300x388_gif = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1451,348 +1149,262 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Crestcolourforanimation2_0();
+	this.instance = new lib.Crestcolourforanimation_300x388_0();
 
-	this.instance_1 = new lib.Crestcolourforanimation2_1();
+	this.instance_1 = new lib.Crestcolourforanimation_300x388_1();
 
-	this.instance_2 = new lib.Crestcolourforanimation2_2();
+	this.instance_2 = new lib.Crestcolourforanimation_300x388_2();
 
-	this.instance_3 = new lib.Crestcolourforanimation2_3();
+	this.instance_3 = new lib.Crestcolourforanimation_300x388_3();
 
-	this.instance_4 = new lib.Crestcolourforanimation2_4();
+	this.instance_4 = new lib.Crestcolourforanimation_300x388_4();
 
-	this.instance_5 = new lib.Crestcolourforanimation2_5();
+	this.instance_5 = new lib.Crestcolourforanimation_300x388_5();
 
-	this.instance_6 = new lib.Crestcolourforanimation2_6();
+	this.instance_6 = new lib.Crestcolourforanimation_300x388_6();
 
-	this.instance_7 = new lib.Crestcolourforanimation2_7();
+	this.instance_7 = new lib.Crestcolourforanimation_300x388_7();
 
-	this.instance_8 = new lib.Crestcolourforanimation2_8();
+	this.instance_8 = new lib.Crestcolourforanimation_300x388_8();
 
-	this.instance_9 = new lib.Crestcolourforanimation2_9();
+	this.instance_9 = new lib.Crestcolourforanimation_300x388_9();
 
-	this.instance_10 = new lib.Crestcolourforanimation2_10();
+	this.instance_10 = new lib.Crestcolourforanimation_300x388_10();
 
-	this.instance_11 = new lib.Crestcolourforanimation2_11();
+	this.instance_11 = new lib.Crestcolourforanimation_300x388_11();
 
-	this.instance_12 = new lib.Crestcolourforanimation2_12();
+	this.instance_12 = new lib.Crestcolourforanimation_300x388_12();
 
-	this.instance_13 = new lib.Crestcolourforanimation2_13();
+	this.instance_13 = new lib.Crestcolourforanimation_300x388_13();
 
-	this.instance_14 = new lib.Crestcolourforanimation2_14();
+	this.instance_14 = new lib.Crestcolourforanimation_300x388_14();
 
-	this.instance_15 = new lib.Crestcolourforanimation2_15();
+	this.instance_15 = new lib.Crestcolourforanimation_300x388_15();
 
-	this.instance_16 = new lib.Crestcolourforanimation2_16();
+	this.instance_16 = new lib.Crestcolourforanimation_300x388_16();
 
-	this.instance_17 = new lib.Crestcolourforanimation2_17();
+	this.instance_17 = new lib.Crestcolourforanimation_300x388_17();
 
-	this.instance_18 = new lib.Crestcolourforanimation2_18();
+	this.instance_18 = new lib.Crestcolourforanimation_300x388_18();
 
-	this.instance_19 = new lib.Crestcolourforanimation2_19();
+	this.instance_19 = new lib.Crestcolourforanimation_300x388_19();
 
-	this.instance_20 = new lib.Crestcolourforanimation2_20();
+	this.instance_20 = new lib.Crestcolourforanimation_300x388_20();
 
-	this.instance_21 = new lib.Crestcolourforanimation2_21();
+	this.instance_21 = new lib.Crestcolourforanimation_300x388_21();
 
-	this.instance_22 = new lib.Crestcolourforanimation2_22();
+	this.instance_22 = new lib.Crestcolourforanimation_300x388_22();
 
-	this.instance_23 = new lib.Crestcolourforanimation2_23();
+	this.instance_23 = new lib.Crestcolourforanimation_300x388_23();
 
-	this.instance_24 = new lib.Crestcolourforanimation2_24();
+	this.instance_24 = new lib.Crestcolourforanimation_300x388_24();
 
-	this.instance_25 = new lib.Crestcolourforanimation2_25();
+	this.instance_25 = new lib.Crestcolourforanimation_300x388_25();
 
-	this.instance_26 = new lib.Crestcolourforanimation2_26();
+	this.instance_26 = new lib.Crestcolourforanimation_300x388_26();
 
-	this.instance_27 = new lib.Crestcolourforanimation2_27();
+	this.instance_27 = new lib.Crestcolourforanimation_300x388_27();
 
-	this.instance_28 = new lib.Crestcolourforanimation2_28();
+	this.instance_28 = new lib.Crestcolourforanimation_300x388_28();
 
-	this.instance_29 = new lib.Crestcolourforanimation2_29();
+	this.instance_29 = new lib.Crestcolourforanimation_300x388_29();
 
-	this.instance_30 = new lib.Crestcolourforanimation2_30();
+	this.instance_30 = new lib.Crestcolourforanimation_300x388_30();
 
-	this.instance_31 = new lib.Crestcolourforanimation2_31();
+	this.instance_31 = new lib.Crestcolourforanimation_300x388_31();
 
-	this.instance_32 = new lib.Crestcolourforanimation2_32();
+	this.instance_32 = new lib.Crestcolourforanimation_300x388_32();
 
-	this.instance_33 = new lib.Crestcolourforanimation2_33();
+	this.instance_33 = new lib.Crestcolourforanimation_300x388_33();
 
-	this.instance_34 = new lib.Crestcolourforanimation2_34();
+	this.instance_34 = new lib.Crestcolourforanimation_300x388_34();
 
-	this.instance_35 = new lib.Crestcolourforanimation2_35();
+	this.instance_35 = new lib.Crestcolourforanimation_300x388_35();
 
-	this.instance_36 = new lib.Crestcolourforanimation2_36();
+	this.instance_36 = new lib.Crestcolourforanimation_300x388_36();
 
-	this.instance_37 = new lib.Crestcolourforanimation2_37();
+	this.instance_37 = new lib.Crestcolourforanimation_300x388_37();
 
-	this.instance_38 = new lib.Crestcolourforanimation2_38();
+	this.instance_38 = new lib.Crestcolourforanimation_300x388_38();
 
-	this.instance_39 = new lib.Crestcolourforanimation2_39();
+	this.instance_39 = new lib.Crestcolourforanimation_300x388_39();
 
-	this.instance_40 = new lib.Crestcolourforanimation2_40();
+	this.instance_40 = new lib.Crestcolourforanimation_300x388_40();
 
-	this.instance_41 = new lib.Crestcolourforanimation2_41();
+	this.instance_41 = new lib.Crestcolourforanimation_300x388_41();
 
-	this.instance_42 = new lib.Crestcolourforanimation2_42();
+	this.instance_42 = new lib.Crestcolourforanimation_300x388_42();
 
-	this.instance_43 = new lib.Crestcolourforanimation2_43();
+	this.instance_43 = new lib.Crestcolourforanimation_300x388_43();
 
-	this.instance_44 = new lib.Crestcolourforanimation2_44();
+	this.instance_44 = new lib.Crestcolourforanimation_300x388_44();
 
-	this.instance_45 = new lib.Crestcolourforanimation2_45();
+	this.instance_45 = new lib.Crestcolourforanimation_300x388_45();
 
-	this.instance_46 = new lib.Crestcolourforanimation2_46();
+	this.instance_46 = new lib.Crestcolourforanimation_300x388_46();
 
-	this.instance_47 = new lib.Crestcolourforanimation2_47();
+	this.instance_47 = new lib.Crestcolourforanimation_300x388_47();
 
-	this.instance_48 = new lib.Crestcolourforanimation2_48();
+	this.instance_48 = new lib.Crestcolourforanimation_300x388_48();
 
-	this.instance_49 = new lib.Crestcolourforanimation2_49();
+	this.instance_49 = new lib.Crestcolourforanimation_300x388_49();
 
-	this.instance_50 = new lib.Crestcolourforanimation2_50();
+	this.instance_50 = new lib.Crestcolourforanimation_300x388_50();
 
-	this.instance_51 = new lib.Crestcolourforanimation2_51();
+	this.instance_51 = new lib.Crestcolourforanimation_300x388_51();
 
-	this.instance_52 = new lib.Crestcolourforanimation2_52();
+	this.instance_52 = new lib.Crestcolourforanimation_300x388_52();
 
-	this.instance_53 = new lib.Crestcolourforanimation2_53();
+	this.instance_53 = new lib.Crestcolourforanimation_300x388_53();
 
-	this.instance_54 = new lib.Crestcolourforanimation2_54();
+	this.instance_54 = new lib.Crestcolourforanimation_300x388_54();
 
-	this.instance_55 = new lib.Crestcolourforanimation2_55();
+	this.instance_55 = new lib.Crestcolourforanimation_300x388_55();
 
-	this.instance_56 = new lib.Crestcolourforanimation2_56();
+	this.instance_56 = new lib.Crestcolourforanimation_300x388_56();
 
-	this.instance_57 = new lib.Crestcolourforanimation2_57();
+	this.instance_57 = new lib.Crestcolourforanimation_300x388_57();
 
-	this.instance_58 = new lib.Crestcolourforanimation2_58();
+	this.instance_58 = new lib.Crestcolourforanimation_300x388_58();
 
-	this.instance_59 = new lib.Crestcolourforanimation2_59();
+	this.instance_59 = new lib.Crestcolourforanimation_300x388_59();
 
-	this.instance_60 = new lib.Crestcolourforanimation2_60();
+	this.instance_60 = new lib.Crestcolourforanimation_300x388_60();
 
-	this.instance_61 = new lib.Crestcolourforanimation2_61();
+	this.instance_61 = new lib.Crestcolourforanimation_300x388_61();
 
-	this.instance_62 = new lib.Crestcolourforanimation2_62();
+	this.instance_62 = new lib.Crestcolourforanimation_300x388_62();
 
-	this.instance_63 = new lib.Crestcolourforanimation2_63();
+	this.instance_63 = new lib.Crestcolourforanimation_300x388_63();
 
-	this.instance_64 = new lib.Crestcolourforanimation2_64();
+	this.instance_64 = new lib.Crestcolourforanimation_300x388_64();
 
-	this.instance_65 = new lib.Crestcolourforanimation2_65();
+	this.instance_65 = new lib.Crestcolourforanimation_300x388_65();
 
-	this.instance_66 = new lib.Crestcolourforanimation2_66();
+	this.instance_66 = new lib.Crestcolourforanimation_300x388_66();
 
-	this.instance_67 = new lib.Crestcolourforanimation2_67();
+	this.instance_67 = new lib.Crestcolourforanimation_300x388_67();
 
-	this.instance_68 = new lib.Crestcolourforanimation2_68();
+	this.instance_68 = new lib.Crestcolourforanimation_300x388_68();
 
-	this.instance_69 = new lib.Crestcolourforanimation2_69();
+	this.instance_69 = new lib.Crestcolourforanimation_300x388_69();
 
-	this.instance_70 = new lib.Crestcolourforanimation2_70();
+	this.instance_70 = new lib.Crestcolourforanimation_300x388_70();
 
-	this.instance_71 = new lib.Crestcolourforanimation2_71();
+	this.instance_71 = new lib.Crestcolourforanimation_300x388_71();
 
-	this.instance_72 = new lib.Crestcolourforanimation2_72();
+	this.instance_72 = new lib.Crestcolourforanimation_300x388_72();
 
-	this.instance_73 = new lib.Crestcolourforanimation2_73();
+	this.instance_73 = new lib.Crestcolourforanimation_300x388_73();
 
-	this.instance_74 = new lib.Crestcolourforanimation2_74();
+	this.instance_74 = new lib.Crestcolourforanimation_300x388_74();
 
-	this.instance_75 = new lib.Crestcolourforanimation2_75();
+	this.instance_75 = new lib.Crestcolourforanimation_300x388_75();
 
-	this.instance_76 = new lib.Crestcolourforanimation2_76();
+	this.instance_76 = new lib.Crestcolourforanimation_300x388_76();
 
-	this.instance_77 = new lib.Crestcolourforanimation2_77();
+	this.instance_77 = new lib.Crestcolourforanimation_300x388_77();
 
-	this.instance_78 = new lib.Crestcolourforanimation2_78();
+	this.instance_78 = new lib.Crestcolourforanimation_300x388_78();
 
-	this.instance_79 = new lib.Crestcolourforanimation2_79();
+	this.instance_79 = new lib.Crestcolourforanimation_300x388_79();
 
-	this.instance_80 = new lib.Crestcolourforanimation2_80();
+	this.instance_80 = new lib.Crestcolourforanimation_300x388_80();
 
-	this.instance_81 = new lib.Crestcolourforanimation2_81();
+	this.instance_81 = new lib.Crestcolourforanimation_300x388_81();
 
-	this.instance_82 = new lib.Crestcolourforanimation2_82();
+	this.instance_82 = new lib.Crestcolourforanimation_300x388_82();
 
-	this.instance_83 = new lib.Crestcolourforanimation2_83();
+	this.instance_83 = new lib.Crestcolourforanimation_300x388_83();
 
-	this.instance_84 = new lib.Crestcolourforanimation2_84();
+	this.instance_84 = new lib.Crestcolourforanimation_300x388_84();
 
-	this.instance_85 = new lib.Crestcolourforanimation2_85();
+	this.instance_85 = new lib.Crestcolourforanimation_300x388_85();
 
-	this.instance_86 = new lib.Crestcolourforanimation2_86();
+	this.instance_86 = new lib.Crestcolourforanimation_300x388_86();
 
-	this.instance_87 = new lib.Crestcolourforanimation2_87();
+	this.instance_87 = new lib.Crestcolourforanimation_300x388_87();
 
-	this.instance_88 = new lib.Crestcolourforanimation2_88();
+	this.instance_88 = new lib.Crestcolourforanimation_300x388_88();
 
-	this.instance_89 = new lib.Crestcolourforanimation2_89();
+	this.instance_89 = new lib.Crestcolourforanimation_300x388_89();
 
-	this.instance_90 = new lib.Crestcolourforanimation2_90();
+	this.instance_90 = new lib.Crestcolourforanimation_300x388_90();
 
-	this.instance_91 = new lib.Crestcolourforanimation2_91();
+	this.instance_91 = new lib.Crestcolourforanimation_300x388_91();
 
-	this.instance_92 = new lib.Crestcolourforanimation2_92();
+	this.instance_92 = new lib.Crestcolourforanimation_300x388_92();
 
-	this.instance_93 = new lib.Crestcolourforanimation2_93();
+	this.instance_93 = new lib.Crestcolourforanimation_300x388_93();
 
-	this.instance_94 = new lib.Crestcolourforanimation2_94();
+	this.instance_94 = new lib.Crestcolourforanimation_300x388_94();
 
-	this.instance_95 = new lib.Crestcolourforanimation2_95();
+	this.instance_95 = new lib.Crestcolourforanimation_300x388_95();
 
-	this.instance_96 = new lib.Crestcolourforanimation2_96();
+	this.instance_96 = new lib.Crestcolourforanimation_300x388_96();
 
-	this.instance_97 = new lib.Crestcolourforanimation2_97();
+	this.instance_97 = new lib.Crestcolourforanimation_300x388_97();
 
-	this.instance_98 = new lib.Crestcolourforanimation2_98();
+	this.instance_98 = new lib.Crestcolourforanimation_300x388_98();
 
-	this.instance_99 = new lib.Crestcolourforanimation2_99();
+	this.instance_99 = new lib.Crestcolourforanimation_300x388_99();
 
-	this.instance_100 = new lib.Crestcolourforanimation2_100();
+	this.instance_100 = new lib.Crestcolourforanimation_300x388_100();
 
-	this.instance_101 = new lib.Crestcolourforanimation2_101();
+	this.instance_101 = new lib.Crestcolourforanimation_300x388_101();
 
-	this.instance_102 = new lib.Crestcolourforanimation2_102();
+	this.instance_102 = new lib.Crestcolourforanimation_300x388_102();
 
-	this.instance_103 = new lib.Crestcolourforanimation2_103();
+	this.instance_103 = new lib.Crestcolourforanimation_300x388_103();
 
-	this.instance_104 = new lib.Crestcolourforanimation2_104();
+	this.instance_104 = new lib.Crestcolourforanimation_300x388_104();
 
-	this.instance_105 = new lib.Crestcolourforanimation2_105();
+	this.instance_105 = new lib.Crestcolourforanimation_300x388_105();
 
-	this.instance_106 = new lib.Crestcolourforanimation2_106();
+	this.instance_106 = new lib.Crestcolourforanimation_300x388_106();
 
-	this.instance_107 = new lib.Crestcolourforanimation2_107();
+	this.instance_107 = new lib.Crestcolourforanimation_300x388_107();
 
-	this.instance_108 = new lib.Crestcolourforanimation2_108();
+	this.instance_108 = new lib.Crestcolourforanimation_300x388_108();
 
-	this.instance_109 = new lib.Crestcolourforanimation2_109();
+	this.instance_109 = new lib.Crestcolourforanimation_300x388_109();
 
-	this.instance_110 = new lib.Crestcolourforanimation2_110();
+	this.instance_110 = new lib.Crestcolourforanimation_300x388_110();
 
-	this.instance_111 = new lib.Crestcolourforanimation2_111();
+	this.instance_111 = new lib.Crestcolourforanimation_300x388_111();
 
-	this.instance_112 = new lib.Crestcolourforanimation2_112();
+	this.instance_112 = new lib.Crestcolourforanimation_300x388_112();
 
-	this.instance_113 = new lib.Crestcolourforanimation2_113();
+	this.instance_113 = new lib.Crestcolourforanimation_300x388_113();
 
-	this.instance_114 = new lib.Crestcolourforanimation2_114();
+	this.instance_114 = new lib.Crestcolourforanimation_300x388_114();
 
-	this.instance_115 = new lib.Crestcolourforanimation2_115();
+	this.instance_115 = new lib.Crestcolourforanimation_300x388_115();
 
-	this.instance_116 = new lib.Crestcolourforanimation2_116();
+	this.instance_116 = new lib.Crestcolourforanimation_300x388_116();
 
-	this.instance_117 = new lib.Crestcolourforanimation2_117();
+	this.instance_117 = new lib.Crestcolourforanimation_300x388_117();
 
-	this.instance_118 = new lib.Crestcolourforanimation2_118();
+	this.instance_118 = new lib.Crestcolourforanimation_300x388_118();
 
-	this.instance_119 = new lib.Crestcolourforanimation2_119();
+	this.instance_119 = new lib.Crestcolourforanimation_300x388_119();
 
-	this.instance_120 = new lib.Crestcolourforanimation2_120();
+	this.instance_120 = new lib.Crestcolourforanimation_300x388_120();
 
-	this.instance_121 = new lib.Crestcolourforanimation2_121();
+	this.instance_121 = new lib.Crestcolourforanimation_300x388_121();
 
-	this.instance_122 = new lib.Crestcolourforanimation2_122();
+	this.instance_122 = new lib.Crestcolourforanimation_300x388_122();
 
-	this.instance_123 = new lib.Crestcolourforanimation2_123();
+	this.instance_123 = new lib.Crestcolourforanimation_300x388_123();
 
-	this.instance_124 = new lib.Crestcolourforanimation2_124();
+	this.instance_124 = new lib.Crestcolourforanimation_300x388_124();
 
-	this.instance_125 = new lib.Crestcolourforanimation2_125();
-
-	this.instance_126 = new lib.Crestcolourforanimation2_126();
-
-	this.instance_127 = new lib.Crestcolourforanimation2_127();
-
-	this.instance_128 = new lib.Crestcolourforanimation2_128();
-
-	this.instance_129 = new lib.Crestcolourforanimation2_129();
-
-	this.instance_130 = new lib.Crestcolourforanimation2_130();
-
-	this.instance_131 = new lib.Crestcolourforanimation2_131();
-
-	this.instance_132 = new lib.Crestcolourforanimation2_132();
-
-	this.instance_133 = new lib.Crestcolourforanimation2_133();
-
-	this.instance_134 = new lib.Crestcolourforanimation2_134();
-
-	this.instance_135 = new lib.Crestcolourforanimation2_135();
-
-	this.instance_136 = new lib.Crestcolourforanimation2_136();
-
-	this.instance_137 = new lib.Crestcolourforanimation2_137();
-
-	this.instance_138 = new lib.Crestcolourforanimation2_138();
-
-	this.instance_139 = new lib.Crestcolourforanimation2_139();
-
-	this.instance_140 = new lib.Crestcolourforanimation2_140();
-
-	this.instance_141 = new lib.Crestcolourforanimation2_141();
-
-	this.instance_142 = new lib.Crestcolourforanimation2_142();
-
-	this.instance_143 = new lib.Crestcolourforanimation2_143();
-
-	this.instance_144 = new lib.Crestcolourforanimation2_144();
-
-	this.instance_145 = new lib.Crestcolourforanimation2_145();
-
-	this.instance_146 = new lib.Crestcolourforanimation2_146();
-
-	this.instance_147 = new lib.Crestcolourforanimation2_147();
-
-	this.instance_148 = new lib.Crestcolourforanimation2_148();
-
-	this.instance_149 = new lib.Crestcolourforanimation2_149();
-
-	this.instance_150 = new lib.Crestcolourforanimation2_150();
-
-	this.instance_151 = new lib.Crestcolourforanimation2_151();
-
-	this.instance_152 = new lib.Crestcolourforanimation2_152();
-
-	this.instance_153 = new lib.Crestcolourforanimation2_153();
-
-	this.instance_154 = new lib.Crestcolourforanimation2_154();
-
-	this.instance_155 = new lib.Crestcolourforanimation2_155();
-
-	this.instance_156 = new lib.Crestcolourforanimation2_156();
-
-	this.instance_157 = new lib.Crestcolourforanimation2_157();
-
-	this.instance_158 = new lib.Crestcolourforanimation2_158();
-
-	this.instance_159 = new lib.Crestcolourforanimation2_159();
-
-	this.instance_160 = new lib.Crestcolourforanimation2_160();
-
-	this.instance_161 = new lib.Crestcolourforanimation2_161();
-
-	this.instance_162 = new lib.Crestcolourforanimation2_162();
-
-	this.instance_163 = new lib.Crestcolourforanimation2_163();
-
-	this.instance_164 = new lib.Crestcolourforanimation2_164();
-
-	this.instance_165 = new lib.Crestcolourforanimation2_165();
-
-	this.instance_166 = new lib.Crestcolourforanimation2_166();
-
-	this.instance_167 = new lib.Crestcolourforanimation2_167();
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).to({state:[{t:this.instance_40}]},1).to({state:[{t:this.instance_41}]},1).to({state:[{t:this.instance_42}]},1).to({state:[{t:this.instance_43}]},1).to({state:[{t:this.instance_44}]},1).to({state:[{t:this.instance_45}]},1).to({state:[{t:this.instance_46}]},1).to({state:[{t:this.instance_47}]},1).to({state:[{t:this.instance_48}]},1).to({state:[{t:this.instance_49}]},1).to({state:[{t:this.instance_50}]},1).to({state:[{t:this.instance_51}]},1).to({state:[{t:this.instance_52}]},1).to({state:[{t:this.instance_53}]},1).to({state:[{t:this.instance_54}]},1).to({state:[{t:this.instance_55}]},1).to({state:[{t:this.instance_56}]},1).to({state:[{t:this.instance_57}]},1).to({state:[{t:this.instance_58}]},1).to({state:[{t:this.instance_59}]},1).to({state:[{t:this.instance_60}]},1).to({state:[{t:this.instance_61}]},1).to({state:[{t:this.instance_62}]},1).to({state:[{t:this.instance_63}]},1).to({state:[{t:this.instance_64}]},1).to({state:[{t:this.instance_65}]},1).to({state:[{t:this.instance_66}]},1).to({state:[{t:this.instance_67}]},1).to({state:[{t:this.instance_68}]},1).to({state:[{t:this.instance_69}]},1).to({state:[{t:this.instance_70}]},1).to({state:[{t:this.instance_71}]},1).to({state:[{t:this.instance_72}]},1).to({state:[{t:this.instance_73}]},1).to({state:[{t:this.instance_74}]},1).to({state:[{t:this.instance_75}]},1).to({state:[{t:this.instance_76}]},1).to({state:[{t:this.instance_77}]},1).to({state:[{t:this.instance_78}]},1).to({state:[{t:this.instance_79}]},1).to({state:[{t:this.instance_80}]},1).to({state:[{t:this.instance_81}]},1).to({state:[{t:this.instance_82}]},1).to({state:[{t:this.instance_83}]},1).to({state:[{t:this.instance_84}]},1).to({state:[{t:this.instance_85}]},1).to({state:[{t:this.instance_86}]},1).to({state:[{t:this.instance_87}]},1).to({state:[{t:this.instance_88}]},1).to({state:[{t:this.instance_89}]},1).to({state:[{t:this.instance_90}]},1).to({state:[{t:this.instance_91}]},1).to({state:[{t:this.instance_92}]},1).to({state:[{t:this.instance_93}]},1).to({state:[{t:this.instance_94}]},1).to({state:[{t:this.instance_95}]},1).to({state:[{t:this.instance_96}]},1).to({state:[{t:this.instance_97}]},1).to({state:[{t:this.instance_98}]},1).to({state:[{t:this.instance_99}]},1).to({state:[{t:this.instance_100}]},1).to({state:[{t:this.instance_101}]},1).to({state:[{t:this.instance_102}]},1).to({state:[{t:this.instance_103}]},1).to({state:[{t:this.instance_104}]},1).to({state:[{t:this.instance_105}]},1).to({state:[{t:this.instance_106}]},1).to({state:[{t:this.instance_107}]},1).to({state:[{t:this.instance_108}]},1).to({state:[{t:this.instance_109}]},1).to({state:[{t:this.instance_110}]},1).to({state:[{t:this.instance_111}]},1).to({state:[{t:this.instance_112}]},1).to({state:[{t:this.instance_113}]},1).to({state:[{t:this.instance_114}]},1).to({state:[{t:this.instance_115}]},1).to({state:[{t:this.instance_116}]},1).to({state:[{t:this.instance_117}]},1).to({state:[{t:this.instance_118}]},1).to({state:[{t:this.instance_119}]},1).to({state:[{t:this.instance_120}]},1).to({state:[{t:this.instance_121}]},1).to({state:[{t:this.instance_122}]},1).to({state:[{t:this.instance_123}]},1).to({state:[{t:this.instance_124}]},1).to({state:[{t:this.instance_125}]},1).to({state:[{t:this.instance_126}]},1).to({state:[{t:this.instance_127}]},1).to({state:[{t:this.instance_128}]},1).to({state:[{t:this.instance_129}]},1).to({state:[{t:this.instance_130}]},1).to({state:[{t:this.instance_131}]},1).to({state:[{t:this.instance_132}]},1).to({state:[{t:this.instance_133}]},1).to({state:[{t:this.instance_134}]},1).to({state:[{t:this.instance_135}]},1).to({state:[{t:this.instance_136}]},1).to({state:[{t:this.instance_137}]},1).to({state:[{t:this.instance_138}]},1).to({state:[{t:this.instance_139}]},1).to({state:[{t:this.instance_140}]},1).to({state:[{t:this.instance_141}]},1).to({state:[{t:this.instance_142}]},1).to({state:[{t:this.instance_143}]},1).to({state:[{t:this.instance_144}]},1).to({state:[{t:this.instance_145}]},1).to({state:[{t:this.instance_146}]},1).to({state:[{t:this.instance_147}]},1).to({state:[{t:this.instance_148}]},1).to({state:[{t:this.instance_149}]},1).to({state:[{t:this.instance_150}]},1).to({state:[{t:this.instance_151}]},1).to({state:[{t:this.instance_152}]},1).to({state:[{t:this.instance_153}]},1).to({state:[{t:this.instance_154}]},1).to({state:[{t:this.instance_155}]},1).to({state:[{t:this.instance_156}]},1).to({state:[{t:this.instance_157}]},1).to({state:[{t:this.instance_158}]},1).to({state:[{t:this.instance_159}]},1).to({state:[{t:this.instance_160}]},1).to({state:[{t:this.instance_161}]},1).to({state:[{t:this.instance_162}]},1).to({state:[{t:this.instance_163}]},1).to({state:[{t:this.instance_164}]},1).to({state:[{t:this.instance_165}]},1).to({state:[{t:this.instance_166}]},1).to({state:[{t:this.instance_167}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).to({state:[{t:this.instance_40}]},1).to({state:[{t:this.instance_41}]},1).to({state:[{t:this.instance_42}]},1).to({state:[{t:this.instance_43}]},1).to({state:[{t:this.instance_44}]},1).to({state:[{t:this.instance_45}]},1).to({state:[{t:this.instance_46}]},1).to({state:[{t:this.instance_47}]},1).to({state:[{t:this.instance_48}]},1).to({state:[{t:this.instance_49}]},1).to({state:[{t:this.instance_50}]},1).to({state:[{t:this.instance_51}]},1).to({state:[{t:this.instance_52}]},1).to({state:[{t:this.instance_53}]},1).to({state:[{t:this.instance_54}]},1).to({state:[{t:this.instance_55}]},1).to({state:[{t:this.instance_56}]},1).to({state:[{t:this.instance_57}]},1).to({state:[{t:this.instance_58}]},1).to({state:[{t:this.instance_59}]},1).to({state:[{t:this.instance_60}]},1).to({state:[{t:this.instance_61}]},1).to({state:[{t:this.instance_62}]},1).to({state:[{t:this.instance_63}]},1).to({state:[{t:this.instance_64}]},1).to({state:[{t:this.instance_65}]},1).to({state:[{t:this.instance_66}]},1).to({state:[{t:this.instance_67}]},1).to({state:[{t:this.instance_68}]},1).to({state:[{t:this.instance_69}]},1).to({state:[{t:this.instance_70}]},1).to({state:[{t:this.instance_71}]},1).to({state:[{t:this.instance_72}]},1).to({state:[{t:this.instance_73}]},1).to({state:[{t:this.instance_74}]},1).to({state:[{t:this.instance_75}]},1).to({state:[{t:this.instance_76}]},1).to({state:[{t:this.instance_77}]},1).to({state:[{t:this.instance_78}]},1).to({state:[{t:this.instance_79}]},1).to({state:[{t:this.instance_80}]},1).to({state:[{t:this.instance_81}]},1).to({state:[{t:this.instance_82}]},1).to({state:[{t:this.instance_83}]},1).to({state:[{t:this.instance_84}]},1).to({state:[{t:this.instance_85}]},1).to({state:[{t:this.instance_86}]},1).to({state:[{t:this.instance_87}]},1).to({state:[{t:this.instance_88}]},1).to({state:[{t:this.instance_89}]},1).to({state:[{t:this.instance_90}]},1).to({state:[{t:this.instance_91}]},1).to({state:[{t:this.instance_92}]},1).to({state:[{t:this.instance_93}]},1).to({state:[{t:this.instance_94}]},1).to({state:[{t:this.instance_95}]},1).to({state:[{t:this.instance_96}]},1).to({state:[{t:this.instance_97}]},1).to({state:[{t:this.instance_98}]},1).to({state:[{t:this.instance_99}]},1).to({state:[{t:this.instance_100}]},1).to({state:[{t:this.instance_101}]},1).to({state:[{t:this.instance_102}]},1).to({state:[{t:this.instance_103}]},1).to({state:[{t:this.instance_104}]},1).to({state:[{t:this.instance_105}]},1).to({state:[{t:this.instance_106}]},1).to({state:[{t:this.instance_107}]},1).to({state:[{t:this.instance_108}]},1).to({state:[{t:this.instance_109}]},1).to({state:[{t:this.instance_110}]},1).to({state:[{t:this.instance_111}]},1).to({state:[{t:this.instance_112}]},1).to({state:[{t:this.instance_113}]},1).to({state:[{t:this.instance_114}]},1).to({state:[{t:this.instance_115}]},1).to({state:[{t:this.instance_116}]},1).to({state:[{t:this.instance_117}]},1).to({state:[{t:this.instance_118}]},1).to({state:[{t:this.instance_119}]},1).to({state:[{t:this.instance_120}]},1).to({state:[{t:this.instance_121}]},1).to({state:[{t:this.instance_122}]},1).to({state:[{t:this.instance_123}]},1).to({state:[{t:this.instance_124}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,300,388);
+p.nominalBounds = new cjs.Rectangle(0,0,299,387);
 
 
 (lib.Worldbooks_Oval = function(mode,startPosition,loop,reversed) {
@@ -3300,8 +2912,8 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.ClicktoPlay_btn).wait(40));
 
 	// Dominic_Crest
-	this.instance_17 = new lib.Crestcolourforanimation2_gif();
-	this.instance_17.setTransform(507.85,454.7,1,1,0,0,0,150,194);
+	this.instance_17 = new lib.Crestcolourforanimation_300x388_gif();
+	this.instance_17.setTransform(508.4,455.3,1.0033,1.0032,0,0,0,150.1,194);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(40));
 
@@ -3322,8 +2934,7 @@ lib.properties = {
 		{src:"images/Teach_Landing_atlas_2.png", id:"Teach_Landing_atlas_2"},
 		{src:"images/Teach_Landing_atlas_3.png", id:"Teach_Landing_atlas_3"},
 		{src:"images/Teach_Landing_atlas_4.png", id:"Teach_Landing_atlas_4"},
-		{src:"images/Teach_Landing_atlas_5.png", id:"Teach_Landing_atlas_5"},
-		{src:"images/Teach_Landing_atlas_6.png", id:"Teach_Landing_atlas_6"}
+		{src:"images/Teach_Landing_atlas_5.png", id:"Teach_Landing_atlas_5"}
 	],
 	preloads: []
 };
