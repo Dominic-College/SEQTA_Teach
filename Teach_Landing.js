@@ -2556,7 +2556,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_34);
 		function fl_ClickToGoToWebPage_34() {
-			window.open("https://www.worldbookonline.com/?uid=dominic&amp;pwd=library", "_blank");
+			window.open("https://www.worldbookonline.com/?uesername=dominic&;password=library", "_blank");
 		}
 		
 		this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_35);
@@ -3003,11 +3003,11 @@ lib.properties = {
 	color: "#BFBFBF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/Teach_Landing_atlas_1.png", id:"Teach_Landing_atlas_1"},
-		{src:"images/Teach_Landing_atlas_2.png", id:"Teach_Landing_atlas_2"},
-		{src:"images/Teach_Landing_atlas_3.png", id:"Teach_Landing_atlas_3"},
-		{src:"images/Teach_Landing_atlas_4.png", id:"Teach_Landing_atlas_4"},
-		{src:"images/Teach_Landing_atlas_5.png", id:"Teach_Landing_atlas_5"}
+		{src:"images/Teach_Landing_atlas_1.png?1660313362968", id:"Teach_Landing_atlas_1"},
+		{src:"images/Teach_Landing_atlas_2.png?1660313362969", id:"Teach_Landing_atlas_2"},
+		{src:"images/Teach_Landing_atlas_3.png?1660313362969", id:"Teach_Landing_atlas_3"},
+		{src:"images/Teach_Landing_atlas_4.png?1660313362970", id:"Teach_Landing_atlas_4"},
+		{src:"images/Teach_Landing_atlas_5.png?1660313362970", id:"Teach_Landing_atlas_5"}
 	],
 	preloads: []
 };
