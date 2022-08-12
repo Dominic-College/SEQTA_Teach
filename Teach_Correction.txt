@@ -1,7 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>SEQTA_Teach_Animate</title>
 	<link href="dom-seqta-tech.css" rel="stylesheet" type="text/css">
