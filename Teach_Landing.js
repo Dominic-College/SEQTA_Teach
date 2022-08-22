@@ -1144,6 +1144,29 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-433.5,-332,851,638);
 
 
+(lib.Dominic_Logo_btn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#857345").s().p("A3beUMAAAg8nMAu3AAAMAAAA8ng");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-150,-194,300,388);
+
+
 (lib.Crestcolourforanimation_300x388_gif = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2984,12 +3007,20 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.Synergetic_btn).wait(40));
 
-	// Dominic_Crest
-	this.Dominic_Logo_link = new lib.Crestcolourforanimation_300x388_gif();
+	// Dominic_Logo_btn
+	this.Dominic_Logo_link = new lib.Dominic_Logo_btn();
 	this.Dominic_Logo_link.name = "Dominic_Logo_link";
-	this.Dominic_Logo_link.setTransform(507.5,453.5,1,1,0,0,0,149.5,193.5);
+	this.Dominic_Logo_link.setTransform(507.5,453);
+	this.Dominic_Logo_link.alpha = 0;
+	new cjs.ButtonHelper(this.Dominic_Logo_link, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get(this.Dominic_Logo_link).wait(40));
+
+	// Dominic_Crest
+	this.instance_18 = new lib.Crestcolourforanimation_300x388_gif();
+	this.instance_18.setTransform(507.5,453.5,1,1,0,0,0,149.5,193.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(40));
 
 	this._renderFirstFrame();
 
