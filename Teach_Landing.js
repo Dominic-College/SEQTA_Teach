@@ -1583,7 +1583,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-136.5,-51,273,106);
 
 
-(lib.SLASA_Harvard_btn = function(mode,startPosition,loop,reversed) {
+(lib.SLASA_Harvard_Oval = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1603,7 +1603,7 @@ if (reversed == null) { reversed = false; }
 	this.text.setTransform(24.15,-38.85);
 	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.9025,scaleY:0.9025,x:23.0422,y:-35.25,color:"#857345"},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.9025,scaleY:0.9025,x:23.0424,y:-35.25,color:"#857345"},0).wait(2));
 
 	// Layer_1
 	this.instance = new lib.Harvard_Oval03x();
@@ -2044,7 +2044,7 @@ if (reversed == null) { reversed = false; }
 	this.text.setTransform(25.55,-27.2);
 	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,5);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:25.5175,y:-26,color:"#857345"},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:25.5175,y:-26,font:"italic bold 24px 'Calibri'",color:"#857345"},0).wait(2));
 
 	// Btn
 	this.instance = new lib.Helpdesk_Oval03x();
@@ -2058,7 +2058,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
 
 
-(lib.FormsAdim_Oval = function(mode,startPosition,loop,reversed) {
+(lib.Forms_Reports_Oval = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -2070,20 +2070,21 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.text = new cjs.Text("Forms &\nReports", "bold 24px 'Calibri'", "#00FF99");
+	this.text = new cjs.Text("Forms & Reports", "bold 24px 'Calibri'", "#00FF99");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 24;
+	this.text.lineWidth = 123;
 	this.text.parent = this;
-	this.text.setTransform(25.55,-26.55);
+	this.text.setTransform(25.55,-27.2);
 	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,5);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:25.8899,y:-25.35,text:"Forms &\nAdmin",color:"#857345"},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:25.5675,y:-25.8,color:"#857345"},0).wait(2));
 
 	// Layer_1
 	this.instance = new lib.FormsAdim_Oval03x();
 	this.instance.setTransform(-136.5,-47);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-130,y:-45},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-129.65,y:-44.6},0).wait(2));
 
 	this._renderFirstFrame();
 
@@ -2411,193 +2412,204 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,9,19,29,39];
 	// timeline functions:
 	this.frame_0 = function() {
-		/* Click to Go to Frame and Play*/
+		/* Click to Go to Frame and Play */
 		
-		this.Helpdesk_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_40.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_40() {
+		this.Helpdesk_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame() {
 			this.gotoAndPlay(10);
 		}
 		
-		this.TnL_Resources_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_41.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_41() {
+		this.TnL_Resources_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_2.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_2() {
 			this.gotoAndPlay(20);
 		}
 		
-		this.Forms_Reports_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_42.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_42() {
+		this.Forms_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_7.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_7() {
 			this.gotoAndPlay(30);
 		}
 		
-		/* Click to Go to Web Page*/
 		
-		this.SharePoint_btn.addEventListener("click", fl_ClickToGoToWebPage_19);
-		function fl_ClickToGoToWebPage_19() {
+		/* Click to Go to Web Page */
+		
+		this.Dominic_Logo_link.addEventListener("click", fl_ClickToGoToWebPage);
+		function fl_ClickToGoToWebPage() {
+			window.open("https://www.dominic.tas.edu.au", "_blank");
+		}
+		
+		this.SharePoint_btn.addEventListener("click", fl_ClickToGoToWebPage_2);
+		function fl_ClickToGoToWebPage_2() {
 			window.open("https://dominic.sharepoint.com/SitePages/Home(2).aspx", "_blank");
 		}
 		
-		this.Consent2Go_btn.addEventListener("click", fl_ClickToGoToWebPage_20);
-		function fl_ClickToGoToWebPage_20() {
+		this.Consent2Go_btn.addEventListener("click", fl_ClickToGoToWebPage_3);
+		function fl_ClickToGoToWebPage_3() {
 			window.open("https://www.mcbschools.com/School", "_blank");
 		}
 		
-		this.OneDrive_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
-		function fl_ClickToGoToWebPage_21() {
+		this.OneDrive_btn.addEventListener("click", fl_ClickToGoToWebPage_4);
+		function fl_ClickToGoToWebPage_4() {
 			window.open("https://onedrive.live.com/about/en-au/signin/", "_blank");
 		}
 		
-		this.ClickView_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
-		function fl_ClickToGoToWebPage_22() {
-			window.open("https://online.clickview.com.au", "_blank");
-		}
-		
-		this.ClicktoPlay_btn.addEventListener("click", fl_ClickToGoToWebPage_23);
-		function fl_ClickToGoToWebPage_23() {
-			window.open("https://clicktopray.org", "_blank");
-		}
-		
-		this.CyberHound_btn.addEventListener("click", fl_ClickToGoToWebPage_24);
-		function fl_ClickToGoToWebPage_24() {
-			window.open("https://live.localnetwork.zone", "_blank");
-		}
-		
-		this.Synergetic_btn.addEventListener("click", fl_ClickToGoToWebPage_25);
-		function fl_ClickToGoToWebPage_25() {
-			window.open("https://synweb.dominic.tas.edu.au", "_blank");
-		}
-		
-		this.Complispace_btn.addEventListener("click", fl_ClickToGoToWebPage_26);
-		function fl_ClickToGoToWebPage_26() {
-			window.open("https://dominic.complispaceprimary.com.au/login", "_blank");
-		}
-		
-		this.SOBS_btn.addEventListener("click", fl_ClickToGoToWebPage_28);
-		function fl_ClickToGoToWebPage_28() {
-			window.open("https://sobs.com.au/pt/loginpage.php?schoolid=408", "_blank");
-		}
-		
-		this.PaperCut_btn.addEventListener("click", fl_ClickToGoToWebPage_29);
-		function fl_ClickToGoToWebPage_29() {
-			window.open("http://printserver:9191/user", "_blank");
-		}
-		
-		this.SLASA_Harvard_btn.addEventListener("click", fl_ClickToGoToWebPage_51);
-		
-		function fl_ClickToGoToWebPage_51() {
-			window.open("https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Forg.slasa.asn.au%2Fs%2FVNyHZ9RfNToBCpNEcFcWpg%2Fharvard%2F&amp;data=05%7C01%7Csbromfield%40dominic.tas.edu.au%7C3dcc1a4202434df19fbf08da3cb74f90%7Cefb1c42ef4574deaa77c11a7845db864%7C0%7C0%7C637889055838539038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=qmpCrFw%2BFs1xJJK%2FnSQvZaD6M5rIh5mt1e4Q9%2Brlp48%3D&amp;reserved=0", "_blank");
-		}
-	}
-	this.frame_9 = function() {
-		/* Stop at This Frame*/
-		this.stop();
-	}
-	this.frame_19 = function() {
-		/* Stop at This Frame*/
-		this.stop();
-		
-		/* Click to Go to Frame and Play*/
-		
-		this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_43.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_43() {
-			this.gotoAndPlay(5);
-		}
-		/* Click to Go to Web Page*/
-		
-		this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_16);
-		function fl_ClickToGoToWebPage_16() {
-			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
-		}
-		
-		this.SEQTA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_45);
-		function fl_ClickToGoToWebPage_45() {
-			window.open("https://static.seqta.com.au/ecourses/", "_blank");
-		}
-		
-		this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_17);
-		function fl_ClickToGoToWebPage_17() {
-			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
-		}
-		
-		this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_18);
-		function fl_ClickToGoToWebPage_18() {
-			window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
-		}
-	}
-	this.frame_29 = function() {
-		/* Stop at This Frame*/
-		this.stop();
-		
-		/* Click to Go to Frame and Play*/
-		
-		this.Shader_Btn_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_44.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_44() {
-			this.gotoAndPlay(5);
-		}
-		/* Click to Go to Web Page*/
-		
-		this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage_30);
-		function fl_ClickToGoToWebPage_30() {
-			window.open("http://jacplus.com.au/", "_blank");
-		}
-		
-		this.Accessit_btn.addEventListener("click", fl_ClickToGoToWebPage_31);
-		function fl_ClickToGoToWebPage_31() {
+		this.Accessit_btn.addEventListener("click", fl_ClickToGoToWebPage_5);
+		function fl_ClickToGoToWebPage_5() {
 			window.open("https://au.accessit.online/DMN02/", "_blank");
 		}
 		
-		this.EdHQ_btn.addEventListener("click", fl_ClickToGoToWebPage_32);
-		function fl_ClickToGoToWebPage_32() {
+		this.ClicktoPlay_btn.addEventListener("click", fl_ClickToGoToWebPage_6);
+		function fl_ClickToGoToWebPage_6() {
+			window.open("https://clicktopray.org", "_blank");
+		}
+		
+		this.CyberHound_btn.addEventListener("click", fl_ClickToGoToWebPage_7);
+		function fl_ClickToGoToWebPage_7() {
+			window.open("https://live.localnetwork.zone", "_blank");
+		}
+		
+		this.Synergetic_btn.addEventListener("click", fl_ClickToGoToWebPage_8);
+		function fl_ClickToGoToWebPage_8() {
+			window.open("https://synweb.dominic.tas.edu.au", "_blank");
+		}
+		
+		this.Complispace_btn.addEventListener("click", fl_ClickToGoToWebPage_9);
+		function fl_ClickToGoToWebPage_9() {
+			window.open("https://dominic.complispaceprimary.com.au/login", "_blank");
+		}
+		
+		this.SLASA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_10);
+		function fl_ClickToGoToWebPage_10() {
+			window.open("https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Forg.slasa.asn.au%2Fs%2FVNyHZ9RfNToBCpNEcFcWpg%2Fharvard%2F&amp;data=05%7C01%7Csbromfield%40dominic.tas.edu.au%7C3dcc1a4202434df19fbf08da3cb74f90%7Cefb1c42ef4574deaa77c11a7845db864%7C0%7C0%7C637889055838539038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=qmpCrFw%2BFs1xJJK%2FnSQvZaD6M5rIh5mt1e4Q9%2Brlp48%3D&amp;reserved=0", "_blank");
+		}
+		
+		this.SOBS_btn.addEventListener("click", fl_ClickToGoToWebPage_11);
+		function fl_ClickToGoToWebPage_11() {
+			window.open("https://sobs.com.au/pt/loginpage.php?schoolid=408", "_blank");
+		}
+		
+		this.PaperCut_btn.addEventListener("click", fl_ClickToGoToWebPage_12);
+		function fl_ClickToGoToWebPage_12() {
+			window.open("http://printserver:9191/user", "_blank");
+		}
+	}
+	this.frame_9 = function() {
+		/* Stop at This Frame */
+		
+		this.stop();
+	}
+	this.frame_19 = function() {
+		/* Stop at This Frame */
+		
+		this.stop();
+		
+		
+		/* Click to Go to Frame and Play */
+		
+		this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_4() {
+			this.gotoAndPlay(1);
+		}
+		/* Click to Go to Web Page */
+		
+		this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_13);
+		function fl_ClickToGoToWebPage_13() {
+			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
+		}
+		
+		this.SEQTA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_14);
+		function fl_ClickToGoToWebPage_14() {
+			window.open("https://static.seqta.com.au/ecourses/", "_blank");
+		}
+		
+		this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_15);
+		function fl_ClickToGoToWebPage_15() {
+			window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
+		}
+		
+		this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_16);
+		function fl_ClickToGoToWebPage_16() {
+			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
+		}
+	}
+	this.frame_29 = function() {
+		/* Stop at This Frame */
+		
+		this.stop();
+		
+		
+		/* Click to Go to Frame and Play */
+		
+		this.Shader_Btn_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_5.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_5() {
+			this.gotoAndPlay(1);
+		}
+		/* Click to Go to Web Page */
+		
+		this.PAT_Testing_btn.addEventListener("click", fl_ClickToGoToWebPage_17);
+		function fl_ClickToGoToWebPage_17() {
+			window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
+		}
+		
+		this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage_18);
+		function fl_ClickToGoToWebPage_18() {
+			window.open("http://jacplus.com.au/", "_blank");
+		}
+		
+		this.ClickView_btn.addEventListener("click", fl_ClickToGoToWebPage_19);
+		function fl_ClickToGoToWebPage_19() {
+			window.open("https://online.clickview.com.au", "_blank");
+		}
+		
+		this.EdHQ_btn.addEventListener("click", fl_ClickToGoToWebPage_20);
+		function fl_ClickToGoToWebPage_20() {
 			window.open("https://educationhq.com/news-home/", "_blank");
 		}
 		
-		this.Renaissance_btn.addEventListener("click", fl_ClickToGoToWebPage_33);
-		function fl_ClickToGoToWebPage_33() {
+		this.Renaisance_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
+		function fl_ClickToGoToWebPage_21() {
 			window.open("https://auhosted5.renlearn.com.au/1458025/", "_blank");
 		}
 		
-		this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_34);
-		function fl_ClickToGoToWebPage_34() {
+		this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
+		function fl_ClickToGoToWebPage_22() {
 			window.open("https://www.worldbookonline.com/?uesername=dominic&;password=library", "_blank");
 		}
 		
-		this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_35);
-		function fl_ClickToGoToWebPage_35() {
+		this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_23);
+		function fl_ClickToGoToWebPage_23() {
 			window.open("https://dominic.eplatform.co/", "_blank");
 		}
 		
-		this.EdSmart_btn.addEventListener("click", fl_ClickToGoToWebPage_36);
-		function fl_ClickToGoToWebPage_36() {
+		this.EdSmart_btn.addEventListener("click", fl_ClickToGoToWebPage_24);
+		function fl_ClickToGoToWebPage_24() {
 			window.open("https://app.edsmart.com/signin", "_blank");
-		}
-		
-		this.PAT_Testing_btn.addEventListener("click", fl_ClickToGoToWebPage_37);
-		function fl_ClickToGoToWebPage_37() {
-			window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
 		}
 	}
 	this.frame_39 = function() {
-		/* Stop at This Frame*/
+		/* Stop at This Frame */
+		
 		this.stop();
 		
-		/* Click to Go to Frame and Play*/
+		/* Click to Go to Frame and Play */
 		
-		this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_45.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_45() {
-			this.gotoAndPlay(5);
+		this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_6() {
+			this.gotoAndPlay(1);
 		}
-		/* Click to Go to Web Page*/
+		/* Click to Go to Web Page */
 		
-		this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_38);
-		function fl_ClickToGoToWebPage_38() {
+		this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_25);
+		function fl_ClickToGoToWebPage_25() {
 			window.open("https://media.digistormhosting.com.au/dominic/content/backgroundContent/Staff-Professional-Learning-Application-Fillable.pdf?mtime=20201014151718", "_blank");
 		}
 		
-		this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_39);
-		function fl_ClickToGoToWebPage_39() {
+		this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_26);
+		function fl_ClickToGoToWebPage_26() {
 			window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
 		}
 		
-		this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_40);
-		function fl_ClickToGoToWebPage_40() {
+		this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_27);
+		function fl_ClickToGoToWebPage_27() {
 			window.open("https://ess.cloud.micropay.com.au/#/", "_blank");
 		}
 	}
@@ -2605,357 +2617,321 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(9).call(this.frame_9).wait(10).call(this.frame_19).wait(10).call(this.frame_29).wait(10).call(this.frame_39).wait(1));
 
-	// sage_btn_anim
-	this.instance = new lib.sage_Oval();
-	this.instance.setTransform(225,510.2);
+	// Petty_Cash_btn_anim
+	this.instance = new lib.Petty_Cash_Oval();
+	this.instance.setTransform(225,510);
 	this.instance._off = true;
 	new cjs.ButtonHelper(this.instance, 0, 1, 2);
 
-	this.sage_btn = new lib.sage_Oval();
-	this.sage_btn.name = "sage_btn";
-	this.sage_btn.setTransform(689.2,507.35);
-	new cjs.ButtonHelper(this.sage_btn, 0, 1, 2);
+	this.Petty_Cash_btn = new lib.Petty_Cash_Oval();
+	this.Petty_Cash_btn.name = "Petty_Cash_btn";
+	this.Petty_Cash_btn.setTransform(318,510);
+	new cjs.ButtonHelper(this.Petty_Cash_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},30).to({state:[{t:this.sage_btn}]},9).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({_off:true,x:689.2,y:507.35},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},30).to({state:[{t:this.Petty_Cash_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({_off:true,x:318},9).wait(1));
 
-	// Petty_Cash_btn_anim
-	this.instance_1 = new lib.Petty_Cash_Oval();
-	this.instance_1.setTransform(225,510.2);
+	// PL_Form_btn_anim
+	this.instance_1 = new lib.Leave_Application_Oval();
+	this.instance_1.setTransform(225,510);
 	this.instance_1._off = true;
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 2);
 
-	this.Petty_Cash_btn = new lib.Petty_Cash_Oval();
-	this.Petty_Cash_btn.name = "Petty_Cash_btn";
-	this.Petty_Cash_btn.setTransform(317.75,510.2);
-	new cjs.ButtonHelper(this.Petty_Cash_btn, 0, 1, 2);
+	this.PL_Form_btn = new lib.Leave_Application_Oval();
+	this.PL_Form_btn.name = "PL_Form_btn";
+	this.PL_Form_btn.setTransform(508,347);
+	new cjs.ButtonHelper(this.PL_Form_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},30).to({state:[{t:this.Petty_Cash_btn}]},9).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(30).to({_off:false},0).to({_off:true,x:317.75},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},30).to({state:[{t:this.PL_Form_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(30).to({_off:false},0).to({_off:true,x:508,y:347},9).wait(1));
 
-	// PL_Form_btn_anim
-	this.instance_2 = new lib.Leave_Application_Oval();
-	this.instance_2.setTransform(225,510.2);
+	// Sage_btn_anim
+	this.instance_2 = new lib.sage_Oval();
+	this.instance_2.setTransform(225,510);
 	this.instance_2._off = true;
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 2);
 
-	this.PL_Form_btn = new lib.Leave_Application_Oval();
-	this.PL_Form_btn.name = "PL_Form_btn";
-	this.PL_Form_btn.setTransform(507.85,347.05);
-	new cjs.ButtonHelper(this.PL_Form_btn, 0, 1, 2);
+	this.sage_btn = new lib.sage_Oval();
+	this.sage_btn.name = "sage_btn";
+	this.sage_btn.setTransform(689,510);
+	new cjs.ButtonHelper(this.sage_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},30).to({state:[{t:this.PL_Form_btn}]},9).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(30).to({_off:false},0).to({_off:true,x:507.85,y:347.05},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},30).to({state:[{t:this.sage_btn}]},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(30).to({_off:false},0).to({_off:true,x:689},9).wait(1));
 
 	// Shader_3
 	this.instance_3 = new lib.Shader_Btn();
-	this.instance_3.setTransform(516.55,467.35);
+	this.instance_3.setTransform(515.5,467);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 	new cjs.ButtonHelper(this.instance_3, 0, 1, 2);
 
 	this.Shader_Btn_3 = new lib.Shader_Btn();
 	this.Shader_Btn_3.name = "Shader_Btn_3";
-	this.Shader_Btn_3.setTransform(516.55,467.35);
+	this.Shader_Btn_3.setTransform(515.5,467);
 	new cjs.ButtonHelper(this.Shader_Btn_3, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},30).to({state:[{t:this.Shader_Btn_3}]},9).wait(1));
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(30).to({_off:false},0).to({_off:true,alpha:1},9).wait(1));
 
-	// EdSmart_btn_anim
-	this.instance_4 = new lib.EdSmart_Oval();
-	this.instance_4.setTransform(225,402.05);
+	// ClickView_btn_anim
+	this.instance_4 = new lib.ClickView_Oval();
+	this.instance_4.setTransform(225,402);
 	this.instance_4._off = true;
 	new cjs.ButtonHelper(this.instance_4, 0, 1, 2);
 
-	this.EdSmart_btn = new lib.EdSmart_Oval();
-	this.EdSmart_btn.name = "EdSmart_btn";
-	this.EdSmart_btn.setTransform(258.75,379.4);
-	new cjs.ButtonHelper(this.EdSmart_btn, 0, 1, 2);
+	this.ClickView_btn = new lib.ClickView_Oval();
+	this.ClickView_btn.name = "ClickView_btn";
+	this.ClickView_btn.setTransform(764,379);
+	new cjs.ButtonHelper(this.ClickView_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},20).to({state:[{t:this.EdSmart_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(20).to({_off:false},0).to({_off:true,x:258.75,y:379.4},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},20).to({state:[{t:this.ClickView_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(20).to({_off:false},0).to({_off:true,x:764,y:379},9).wait(11));
 
-	// Wheeler_eBooks_btn_anim
-	this.instance_5 = new lib.Wheelers_eBooks_Oval();
-	this.instance_5.setTransform(225,402.05);
+	// EdHQ_btn_anim
+	this.instance_5 = new lib.EdHQ_Oval();
+	this.instance_5.setTransform(225,402);
 	this.instance_5._off = true;
 	new cjs.ButtonHelper(this.instance_5, 0, 1, 2);
 
-	this.Wheelers_eBooks_btn = new lib.Wheelers_eBooks_Oval();
-	this.Wheelers_eBooks_btn.name = "Wheelers_eBooks_btn";
-	this.Wheelers_eBooks_btn.setTransform(258.75,521.15);
-	new cjs.ButtonHelper(this.Wheelers_eBooks_btn, 0, 1, 2);
+	this.EdHQ_btn = new lib.EdHQ_Oval();
+	this.EdHQ_btn.name = "EdHQ_btn";
+	this.EdHQ_btn.setTransform(764,522);
+	new cjs.ButtonHelper(this.EdHQ_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},20).to({state:[{t:this.Wheelers_eBooks_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(20).to({_off:false},0).to({_off:true,x:258.75,y:521.15},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},20).to({state:[{t:this.EdHQ_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(20).to({_off:false},0).to({_off:true,x:764,y:522},9).wait(11));
 
-	// Worldbooks_btn_anim
-	this.instance_6 = new lib.Worldbooks_Oval();
-	this.instance_6.setTransform(225,402.05);
+	// EdSmart_btn_anim
+	this.instance_6 = new lib.EdSmart_Oval();
+	this.instance_6.setTransform(225,402);
 	this.instance_6._off = true;
 	new cjs.ButtonHelper(this.instance_6, 0, 1, 2);
 
-	this.WorldBooks_btn = new lib.Worldbooks_Oval();
-	this.WorldBooks_btn.name = "WorldBooks_btn";
-	this.WorldBooks_btn.setTransform(340.35,662.95);
-	new cjs.ButtonHelper(this.WorldBooks_btn, 0, 1, 2);
+	this.EdSmart_btn = new lib.EdSmart_Oval();
+	this.EdSmart_btn.name = "EdSmart_btn";
+	this.EdSmart_btn.setTransform(259,379);
+	new cjs.ButtonHelper(this.EdSmart_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},20).to({state:[{t:this.WorldBooks_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(20).to({_off:false},0).to({_off:true,x:340.35,y:662.95},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},20).to({state:[{t:this.EdSmart_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(20).to({_off:false},0).to({_off:true,x:259,y:379},9).wait(11));
 
-	// Renaisance_btn_anim
-	this.instance_7 = new lib.Renaisance_Oval();
-	this.instance_7.setTransform(225,402.05);
+	// JacPlus_btn_anim
+	this.instance_7 = new lib.JacPlus_Oval();
+	this.instance_7.setTransform(225,402);
 	this.instance_7._off = true;
 	new cjs.ButtonHelper(this.instance_7, 0, 1, 2);
 
-	this.Renaissance_btn = new lib.Renaisance_Oval();
-	this.Renaissance_btn.name = "Renaissance_btn";
-	this.Renaissance_btn.setTransform(683.6,662.95);
-	new cjs.ButtonHelper(this.Renaissance_btn, 0, 1, 2);
+	this.JacPLus_btn = new lib.JacPlus_Oval();
+	this.JacPLus_btn.name = "JacPLus_btn";
+	this.JacPLus_btn.setTransform(683,238);
+	new cjs.ButtonHelper(this.JacPLus_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},20).to({state:[{t:this.Renaissance_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(20).to({_off:false},0).to({_off:true,x:683.6,y:662.95},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},20).to({state:[{t:this.JacPLus_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(20).to({_off:false},0).to({_off:true,x:683,y:238},9).wait(11));
 
-	// EdHQ_btn_anim
-	this.instance_8 = new lib.EdHQ_Oval();
-	this.instance_8.setTransform(225,402.05);
+	// Pat_Testing_btn_anim
+	this.instance_8 = new lib.PAT_Testing_Oval();
+	this.instance_8.setTransform(225,402);
 	this.instance_8._off = true;
 	new cjs.ButtonHelper(this.instance_8, 0, 1, 2);
 
-	this.EdHQ_btn = new lib.EdHQ_Oval();
-	this.EdHQ_btn.name = "EdHQ_btn";
-	this.EdHQ_btn.setTransform(764.25,521.65);
-	new cjs.ButtonHelper(this.EdHQ_btn, 0, 1, 2);
+	this.PAT_Testing_btn = new lib.PAT_Testing_Oval();
+	this.PAT_Testing_btn.name = "PAT_Testing_btn";
+	this.PAT_Testing_btn.setTransform(340,238);
+	new cjs.ButtonHelper(this.PAT_Testing_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},20).to({state:[{t:this.EdHQ_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(20).to({_off:false},0).to({_off:true,x:764.25,y:521.65},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},20).to({state:[{t:this.PAT_Testing_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(20).to({_off:false},0).to({_off:true,x:340,y:238},9).wait(11));
 
-	// Accessit_btn_anim
-	this.instance_9 = new lib.Accessit_Oval();
-	this.instance_9.setTransform(225,402.05);
+	// Renaisance_btn_anim
+	this.instance_9 = new lib.Renaisance_Oval();
+	this.instance_9.setTransform(225,402);
 	this.instance_9._off = true;
 	new cjs.ButtonHelper(this.instance_9, 0, 1, 2);
 
-	this.Accessit_btn = new lib.Accessit_Oval();
-	this.Accessit_btn.name = "Accessit_btn";
-	this.Accessit_btn.setTransform(764.25,379.4);
-	new cjs.ButtonHelper(this.Accessit_btn, 0, 1, 2);
+	this.Renaisance_btn = new lib.Renaisance_Oval();
+	this.Renaisance_btn.name = "Renaisance_btn";
+	this.Renaisance_btn.setTransform(683,663);
+	new cjs.ButtonHelper(this.Renaisance_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9}]},20).to({state:[{t:this.Accessit_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(20).to({_off:false},0).to({_off:true,x:764.25,y:379.4},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9}]},20).to({state:[{t:this.Renaisance_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(20).to({_off:false},0).to({_off:true,x:683,y:663},9).wait(11));
 
-	// JacPlus_btn_anim
-	this.instance_10 = new lib.JacPlus_Oval();
-	this.instance_10.setTransform(225,402.05);
+	// Wheeler_eBooks_btn_anim
+	this.instance_10 = new lib.Wheelers_eBooks_Oval();
+	this.instance_10.setTransform(225,402);
 	this.instance_10._off = true;
 	new cjs.ButtonHelper(this.instance_10, 0, 1, 2);
 
-	this.JacPLus_btn = new lib.JacPlus_Oval();
-	this.JacPLus_btn.name = "JacPLus_btn";
-	this.JacPLus_btn.setTransform(683.6,237.65);
-	new cjs.ButtonHelper(this.JacPLus_btn, 0, 1, 2);
+	this.Wheelers_eBooks_btn = new lib.Wheelers_eBooks_Oval();
+	this.Wheelers_eBooks_btn.name = "Wheelers_eBooks_btn";
+	this.Wheelers_eBooks_btn.setTransform(259,522);
+	new cjs.ButtonHelper(this.Wheelers_eBooks_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},20).to({state:[{t:this.JacPLus_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({_off:true,x:683.6,y:237.65},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},20).to({state:[{t:this.Wheelers_eBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({_off:true,x:259,y:522},9).wait(11));
 
-	// Pat_Testing_btn_anim
-	this.instance_11 = new lib.PAT_Testing_Oval();
-	this.instance_11.setTransform(225,402.05);
+	// WorldBooks_btn_anim
+	this.instance_11 = new lib.Worldbooks_Oval();
+	this.instance_11.setTransform(225,402);
 	this.instance_11._off = true;
 	new cjs.ButtonHelper(this.instance_11, 0, 1, 2);
 
-	this.PAT_Testing_btn = new lib.PAT_Testing_Oval();
-	this.PAT_Testing_btn.name = "PAT_Testing_btn";
-	this.PAT_Testing_btn.setTransform(340.35,237.65);
-	new cjs.ButtonHelper(this.PAT_Testing_btn, 0, 1, 2);
+	this.WorldBooks_btn = new lib.Worldbooks_Oval();
+	this.WorldBooks_btn.name = "WorldBooks_btn";
+	this.WorldBooks_btn.setTransform(340,663);
+	new cjs.ButtonHelper(this.WorldBooks_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_11}]},20).to({state:[{t:this.PAT_Testing_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({_off:true,x:340.35,y:237.65},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_11}]},20).to({state:[{t:this.WorldBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({_off:true,x:340,y:663},9).wait(11));
 
 	// Shader_2
 	this.instance_12 = new lib.Shader_Btn();
-	this.instance_12.setTransform(516.55,467.35);
+	this.instance_12.setTransform(516,467);
 	this.instance_12.alpha = 0;
 	this.instance_12._off = true;
 	new cjs.ButtonHelper(this.instance_12, 0, 1, 2);
 
 	this.Shader_Btn_2 = new lib.Shader_Btn();
 	this.Shader_Btn_2.name = "Shader_Btn_2";
-	this.Shader_Btn_2.setTransform(516.55,467.35);
+	this.Shader_Btn_2.setTransform(516,467);
 	new cjs.ButtonHelper(this.Shader_Btn_2, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},20).to({state:[{t:this.Shader_Btn_2}]},9).to({state:[]},1).wait(10));
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(20).to({_off:false},0).to({_off:true,alpha:1},9).wait(11));
 
-	// Incident_Report_btn_anim
-	this.instance_13 = new lib.Incident_Report_Oval();
-	this.instance_13.setTransform(507.85,185.4);
+	// E_Learning__btn_anim
+	this.instance_13 = new lib.E_Learning_Ticket_Oval();
+	this.instance_13.setTransform(510,185);
 	this.instance_13._off = true;
 	new cjs.ButtonHelper(this.instance_13, 0, 1, 2);
 
-	this.Incident_Report_btn = new lib.Incident_Report_Oval();
-	this.Incident_Report_btn.name = "Incident_Report_btn";
-	this.Incident_Report_btn.setTransform(689.2,510.05);
-	new cjs.ButtonHelper(this.Incident_Report_btn, 0, 1, 2);
+	this.E_Learning_Submit_btn = new lib.E_Learning_Ticket_Oval();
+	this.E_Learning_Submit_btn.name = "E_Learning_Submit_btn";
+	this.E_Learning_Submit_btn.setTransform(318,347);
+	new cjs.ButtonHelper(this.E_Learning_Submit_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_13}]},10).to({state:[{t:this.Incident_Report_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({_off:true,x:689.2,y:510.05},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_13}]},10).to({state:[{t:this.E_Learning_Submit_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({_off:true,x:318,y:347},9).wait(21));
 
-	// Maintenance_Request_btn_anim
-	this.instance_14 = new lib.Maintenance_Request_Oval();
-	this.instance_14.setTransform(507.85,185.4);
+	// Incident_report_btn_anim
+	this.instance_14 = new lib.Incident_Report_Oval();
+	this.instance_14.setTransform(510,185);
 	this.instance_14._off = true;
 	new cjs.ButtonHelper(this.instance_14, 0, 1, 2);
 
-	this.Maintenance_btn = new lib.Maintenance_Request_Oval();
-	this.Maintenance_btn.name = "Maintenance_btn";
-	this.Maintenance_btn.setTransform(317.75,510.05);
-	new cjs.ButtonHelper(this.Maintenance_btn, 0, 1, 2);
+	this.Incident_Report_btn = new lib.Incident_Report_Oval();
+	this.Incident_Report_btn.name = "Incident_Report_btn";
+	this.Incident_Report_btn.setTransform(689,510);
+	new cjs.ButtonHelper(this.Incident_Report_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.Maintenance_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(10).to({_off:false},0).to({_off:true,x:317.75,y:510.05},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.Incident_Report_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(10).to({_off:false},0).to({_off:true,x:689,y:510},9).wait(21));
 
-	// E_Learning_ticket_btn_anim
-	this.instance_15 = new lib.E_Learning_Ticket_Oval();
-	this.instance_15.setTransform(507.85,185.4);
+	// Maintenance_Report_btn_anim
+	this.instance_15 = new lib.Maintenance_Request_Oval();
+	this.instance_15.setTransform(510,185);
 	this.instance_15._off = true;
 	new cjs.ButtonHelper(this.instance_15, 0, 1, 2);
 
-	this.E_Learning_Submit_btn = new lib.E_Learning_Ticket_Oval();
-	this.E_Learning_Submit_btn.name = "E_Learning_Submit_btn";
-	this.E_Learning_Submit_btn.setTransform(317.75,347.05);
-	new cjs.ButtonHelper(this.E_Learning_Submit_btn, 0, 1, 2);
+	this.Maintenance_btn = new lib.Maintenance_Request_Oval();
+	this.Maintenance_btn.name = "Maintenance_btn";
+	this.Maintenance_btn.setTransform(318,510);
+	new cjs.ButtonHelper(this.Maintenance_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15}]},10).to({state:[{t:this.E_Learning_Submit_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(10).to({_off:false},0).to({_off:true,x:317.75,y:347.05},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15}]},10).to({state:[{t:this.Maintenance_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(10).to({_off:false},0).to({_off:true,x:318,y:510},9).wait(21));
 
 	// SEQTA_btn_anim
 	this.instance_16 = new lib.SEQTA_Oval_btn();
-	this.instance_16.setTransform(507.85,185.4);
+	this.instance_16.setTransform(510,185);
 	this.instance_16._off = true;
 	new cjs.ButtonHelper(this.instance_16, 0, 1, 2);
 
 	this.SEQTA_Resources_btn = new lib.SEQTA_Oval_btn();
 	this.SEQTA_Resources_btn.name = "SEQTA_Resources_btn";
-	this.SEQTA_Resources_btn.setTransform(689.2,347.05);
+	this.SEQTA_Resources_btn.setTransform(689,347);
 	new cjs.ButtonHelper(this.SEQTA_Resources_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.SEQTA_Resources_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,x:689.2,y:347.05},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,x:689,y:347},9).wait(21));
 
 	// Shader_1
 	this.instance_17 = new lib.Shader_Btn();
-	this.instance_17.setTransform(516.55,467.35);
+	this.instance_17.setTransform(516,467);
 	this.instance_17.alpha = 0;
 	this.instance_17._off = true;
 	new cjs.ButtonHelper(this.instance_17, 0, 1, 2);
 
 	this.Shader_Btn_1 = new lib.Shader_Btn();
 	this.Shader_Btn_1.name = "Shader_Btn_1";
-	this.Shader_Btn_1.setTransform(516.55,467.35);
+	this.Shader_Btn_1.setTransform(516,467);
 	new cjs.ButtonHelper(this.Shader_Btn_1, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},10).to({state:[{t:this.Shader_Btn_1}]},9).to({state:[]},1).wait(20));
 	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(10).to({_off:false},0).to({_off:true,alpha:1},9).wait(21));
 
-	// Helpdesk_btn_anim
-	this.Helpdesk_btn = new lib.Helpdesk_Oval();
-	this.Helpdesk_btn.name = "Helpdesk_btn";
-	this.Helpdesk_btn.setTransform(509.5,185.75);
-	new cjs.ButtonHelper(this.Helpdesk_btn, 0, 1, 2);
+	// Forms_Reports_btn_anim
+	this.Forms_btn = new lib.Forms_Reports_Oval();
+	this.Forms_btn.name = "Forms_btn";
+	this.Forms_btn.setTransform(225,510);
+	new cjs.ButtonHelper(this.Forms_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Helpdesk_btn).wait(40));
-
-	// Consent2Go_btn_anim
-	this.Consent2Go_btn = new lib.Consent2Go_Oval();
-	this.Consent2Go_btn.name = "Consent2Go_btn";
-	this.Consent2Go_btn.setTransform(795.55,185.75);
-	new cjs.ButtonHelper(this.Consent2Go_btn, 0, 1, 2);
-
-	this.timeline.addTween(cjs.Tween.get(this.Consent2Go_btn).wait(40));
-
-	// SharePoint_btn_anim
-	this.SharePoint_btn = new lib.SharePoint_Oval();
-	this.SharePoint_btn.name = "SharePoint_btn";
-	this.SharePoint_btn.setTransform(225,185.75);
-	new cjs.ButtonHelper(this.SharePoint_btn, 0, 1, 2);
-
-	this.timeline.addTween(cjs.Tween.get(this.SharePoint_btn).wait(40));
-
-	// Papercut_btn_anim
-	this.PaperCut_btn = new lib.Papercut_Oval();
-	this.PaperCut_btn.name = "PaperCut_btn";
-	this.PaperCut_btn.setTransform(225.5,294.4);
-	new cjs.ButtonHelper(this.PaperCut_btn, 0, 1, 2);
-
-	this.timeline.addTween(cjs.Tween.get(this.PaperCut_btn).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.Forms_btn).wait(40));
 
 	// TnL_Resources_btn_anim
 	this.TnL_Resources_btn = new lib.TL_Resources_Oval();
 	this.TnL_Resources_btn.name = "TnL_Resources_btn";
-	this.TnL_Resources_btn.setTransform(225,402.05);
+	this.TnL_Resources_btn.setTransform(225,402);
 	new cjs.ButtonHelper(this.TnL_Resources_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get(this.TnL_Resources_btn).wait(40));
 
-	// Forms_Reports_btn_anim
-	this.Forms_Reports_btn = new lib.FormsAdim_Oval();
-	this.Forms_Reports_btn.name = "Forms_Reports_btn";
-	this.Forms_Reports_btn.setTransform(225,510.2);
-	new cjs.ButtonHelper(this.Forms_Reports_btn, 0, 1, 2);
+	// Helpdesk_btn_anim
+	this.Helpdesk_btn = new lib.Helpdesk_Oval();
+	this.Helpdesk_btn.name = "Helpdesk_btn";
+	this.Helpdesk_btn.setTransform(510,185);
+	new cjs.ButtonHelper(this.Helpdesk_btn, 0, 1, 2);
 
-	this.Forms_Adim_btn = new lib.FormsAdim_Oval();
-	this.Forms_Adim_btn.name = "Forms_Adim_btn";
-	this.Forms_Adim_btn.setTransform(225,510.2);
-	new cjs.ButtonHelper(this.Forms_Adim_btn, 0, 1, 2);
+	this.timeline.addTween(cjs.Tween.get(this.Helpdesk_btn).wait(40));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Forms_Reports_btn}]}).to({state:[{t:this.Forms_Adim_btn}]},9).wait(31));
-	this.timeline.addTween(cjs.Tween.get(this.Forms_Reports_btn).to({_off:true},9).wait(31));
+	// Accessit_btn_anim
+	this.Accessit_btn = new lib.Accessit_Oval();
+	this.Accessit_btn.name = "Accessit_btn";
+	this.Accessit_btn.setTransform(795,402);
+	new cjs.ButtonHelper(this.Accessit_btn, 0, 1, 2);
 
-	// SOBS_btn_anim
-	this.SOBS_btn = new lib.SOBS_Oval();
-	this.SOBS_btn.name = "SOBS_btn";
-	this.SOBS_btn.setTransform(225,618.35);
-	new cjs.ButtonHelper(this.SOBS_btn, 0, 1, 2);
+	this.timeline.addTween(cjs.Tween.get(this.Accessit_btn).wait(40));
 
-	this.timeline.addTween(cjs.Tween.get(this.SOBS_btn).wait(40));
+	// ClicktoPray_btn_anim
+	this.ClicktoPlay_btn = new lib.ClicktoPray_Oval();
+	this.ClicktoPlay_btn.name = "ClicktoPlay_btn";
+	this.ClicktoPlay_btn.setTransform(795,510);
+	new cjs.ButtonHelper(this.ClicktoPlay_btn, 0, 1, 2);
 
-	// Harvard_btn_anim
-	this.SLASA_Resources_btn = new lib.SLASA_Harvard_btn();
-	this.SLASA_Resources_btn.name = "SLASA_Resources_btn";
-	this.SLASA_Resources_btn.setTransform(225.5,726.65);
-	new cjs.ButtonHelper(this.SLASA_Resources_btn, 0, 1, 2);
-
-	this.SLASA_Harvard_btn = new lib.SLASA_Harvard_btn();
-	this.SLASA_Harvard_btn.name = "SLASA_Harvard_btn";
-	this.SLASA_Harvard_btn.setTransform(225.5,726.65);
-	new cjs.ButtonHelper(this.SLASA_Harvard_btn, 0, 1, 2);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.SLASA_Resources_btn}]}).to({state:[{t:this.SLASA_Harvard_btn}]},9).wait(31));
-	this.timeline.addTween(cjs.Tween.get(this.SLASA_Resources_btn).to({_off:true},9).wait(31));
+	this.timeline.addTween(cjs.Tween.get(this.ClicktoPlay_btn).wait(40));
 
 	// Complispace_btn_anim
 	this.Complispace_btn = new lib.Complispace_Oval();
 	this.Complispace_btn.name = "Complispace_btn";
-	this.Complispace_btn.setTransform(510,726.65);
+	this.Complispace_btn.setTransform(510,726);
 	new cjs.ButtonHelper(this.Complispace_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get(this.Complispace_btn).wait(40));
 
-	// Synergetic_btn_anim
-	this.Synergetic_btn = new lib.Synergetic_Oval();
-	this.Synergetic_btn.name = "Synergetic_btn";
-	this.Synergetic_btn.setTransform(795.05,726.65);
-	new cjs.ButtonHelper(this.Synergetic_btn, 0, 1, 2);
+	// Consent2Go_btn_anim
+	this.Consent2Go_btn = new lib.Consent2Go_Oval();
+	this.Consent2Go_btn.name = "Consent2Go_btn";
+	this.Consent2Go_btn.setTransform(795,185);
+	new cjs.ButtonHelper(this.Consent2Go_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.Synergetic_btn).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.Consent2Go_btn).wait(40));
 
 	// Cyberhound_btn_anim
 	this.CyberHound_btn = new lib.Cyberhound_Oval();
 	this.CyberHound_btn.name = "CyberHound_btn";
-	this.CyberHound_btn.setTransform(795.05,618.85);
+	this.CyberHound_btn.setTransform(795,618);
 	new cjs.ButtonHelper(this.CyberHound_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get(this.CyberHound_btn).wait(40));
@@ -2963,51 +2939,76 @@ if (reversed == null) { reversed = false; }
 	// OneDrive_btn_anim
 	this.OneDrive_btn = new lib.OneDrive_Oval();
 	this.OneDrive_btn.name = "OneDrive_btn";
-	this.OneDrive_btn.setTransform(795.05,294.4);
+	this.OneDrive_btn.setTransform(795,294);
 	new cjs.ButtonHelper(this.OneDrive_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get(this.OneDrive_btn).wait(40));
 
-	// ClickView_btn_anim
-	this.ClickView_btn = new lib.ClickView_Oval();
-	this.ClickView_btn.name = "ClickView_btn";
-	this.ClickView_btn.setTransform(795.05,402.05);
-	new cjs.ButtonHelper(this.ClickView_btn, 0, 1, 2);
+	// Papercut_btn_anim
+	this.PaperCut_btn = new lib.Papercut_Oval();
+	this.PaperCut_btn.name = "PaperCut_btn";
+	this.PaperCut_btn.setTransform(225,294);
+	new cjs.ButtonHelper(this.PaperCut_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.ClickView_btn).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.PaperCut_btn).wait(40));
 
-	// ClicktoPray_btn_anim
-	this.ClicktoPlay_btn = new lib.ClicktoPray_Oval();
-	this.ClicktoPlay_btn.name = "ClicktoPlay_btn";
-	this.ClicktoPlay_btn.setTransform(795.05,510.2);
-	new cjs.ButtonHelper(this.ClicktoPlay_btn, 0, 1, 2);
+	// SharePoint_btn_anim
+	this.SharePoint_btn = new lib.SharePoint_Oval();
+	this.SharePoint_btn.name = "SharePoint_btn";
+	this.SharePoint_btn.setTransform(225,185);
+	new cjs.ButtonHelper(this.SharePoint_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get(this.ClicktoPlay_btn).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.SharePoint_btn).wait(40));
+
+	// SLASA_btn_anim
+	this.SLASA_Resources_btn = new lib.SLASA_Harvard_Oval();
+	this.SLASA_Resources_btn.name = "SLASA_Resources_btn";
+	this.SLASA_Resources_btn.setTransform(225,726);
+	new cjs.ButtonHelper(this.SLASA_Resources_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get(this.SLASA_Resources_btn).wait(40));
+
+	// SOBS_btn_anim
+	this.SOBS_btn = new lib.SOBS_Oval();
+	this.SOBS_btn.name = "SOBS_btn";
+	this.SOBS_btn.setTransform(225,618);
+	new cjs.ButtonHelper(this.SOBS_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get(this.SOBS_btn).wait(40));
+
+	// Synergetic_btn_anim
+	this.Synergetic_btn = new lib.Synergetic_Oval();
+	this.Synergetic_btn.name = "Synergetic_btn";
+	this.Synergetic_btn.setTransform(795,726);
+	new cjs.ButtonHelper(this.Synergetic_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get(this.Synergetic_btn).wait(40));
 
 	// Dominic_Crest
-	this.instance_18 = new lib.Crestcolourforanimation_300x388_gif();
-	this.instance_18.setTransform(508.4,455.3,1.0033,1.0032,0,0,0,150.1,194);
+	this.Dominic_Logo_link = new lib.Crestcolourforanimation_300x388_gif();
+	this.Dominic_Logo_link.name = "Dominic_Logo_link";
+	this.Dominic_Logo_link.setTransform(507.5,453.5,1,1,0,0,0,149.5,193.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.Dominic_Logo_link).wait(40));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(590.6,570.4,343.5,210.20000000000005);
+p.nominalBounds = new cjs.Rectangle(589.5,570,344,210);
 // library properties:
 lib.properties = {
-	id: '2678EAE5A524BA44A37CE284A73116A7',
+	id: 'CB3F2BAFD6C2604D83FA8A7AB09291D5',
 	width: 1015,
 	height: 870,
 	fps: 24,
-	color: "#BFBFBF",
+	color: "#FFFFFF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/Teach_Landing_atlas_1.png?1660313362968", id:"Teach_Landing_atlas_1"},
-		{src:"images/Teach_Landing_atlas_2.png?1660313362969", id:"Teach_Landing_atlas_2"},
-		{src:"images/Teach_Landing_atlas_3.png?1660313362969", id:"Teach_Landing_atlas_3"},
-		{src:"images/Teach_Landing_atlas_4.png?1660313362970", id:"Teach_Landing_atlas_4"},
-		{src:"images/Teach_Landing_atlas_5.png?1660313362970", id:"Teach_Landing_atlas_5"}
+		{src:"images/Teach_Landing_atlas_1.png", id:"Teach_Landing_atlas_1"},
+		{src:"images/Teach_Landing_atlas_2.png", id:"Teach_Landing_atlas_2"},
+		{src:"images/Teach_Landing_atlas_3.png", id:"Teach_Landing_atlas_3"},
+		{src:"images/Teach_Landing_atlas_4.png", id:"Teach_Landing_atlas_4"},
+		{src:"images/Teach_Landing_atlas_5.png", id:"Teach_Landing_atlas_5"}
 	],
 	preloads: []
 };
@@ -3045,7 +3046,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['2678EAE5A524BA44A37CE284A73116A7'] = {
+an.compositions['CB3F2BAFD6C2604D83FA8A7AB09291D5'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
