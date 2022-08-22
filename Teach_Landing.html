@@ -11,15 +11,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>Teach_Landing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>SEQTA_Teach_Animate</title>
+	<link href="dom-seqta-tech.css" rel="stylesheet" type="text/css">
 <!-- write your code here -->
-<style>
-  #animation_container {
-	position:absolute;
-	margin:auto;
-	left:0;right:0;
-  }
-</style>
+
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="Teach_Landing.js"></script>
 <script>
@@ -67,10 +63,27 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:1015px; height:870px">
-		<canvas id="canvas" width="1015" height="870" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
+	<header>
+		<div>
+			<img class="headBG" src="images/Ribben-1k.png" alt="">
+			<img class="head01" src="images/College_Logo_Header.png" alt="">
+		</div>
+	</header>
+	
+	<div id="animation_container" style="width:1015px; height:870px">
+		<canvas id="canvas" width="1015" height="870" style="position: absolute; display: block;"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1015px; height:870px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+	
+	<footer>
+		<div class="foot01">
+			<img class="foot01" src="images/Footer_Ribben-1k.png" alt="">
+			<img class="footer_banner" src="Salesian_Footer_Banner.gif" width="1015" height="55" alt="">
+<!--			<p class="footer_text">GOSPEL VALUES ~ RESPECT ~ HONESTY ~ RESPONSIBILITY ~ DILIGENCE ~ SAFETY</p>-->
+		</div>
+	</footer>
+
 </body>
+
 </html>
