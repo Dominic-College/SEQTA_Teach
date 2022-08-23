@@ -1,97 +1,207 @@
-Frame 20
+Frame 1
 
 /* Click to Go to Frame and Play*/
-this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
-function fl_ClickToGoToAndPlayFromFrame_6() {
+
+this.Helpdesk_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_40.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_40() {
+	this.gotoAndPlay(10);
+}
+
+this.TnL_Resources_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_41.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_41() {
+	this.gotoAndPlay(20);
+}
+
+this.Forms_Reports_btn.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_47.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_47() {
+	this.gotoAndPlay(30);
+}
+
+
+
+/* Click to Go to Web Page*/
+
+this.SharePoint_btn.addEventListener("click", fl_ClickToGoToWebPage_19);
+function fl_ClickToGoToWebPage_19() {
+	window.open("https://dominic.sharepoint.com/SitePages/Home(2).aspx", "_blank");
+}
+
+this.Consent2Go_btn.addEventListener("click", fl_ClickToGoToWebPage_20);
+function fl_ClickToGoToWebPage_20() {
+	window.open("https://www.mcbschools.com/School", "_blank");
+}
+
+this.OneDrive_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
+function fl_ClickToGoToWebPage_21() {
+	window.open("https://onedrive.live.com/about/en-au/signin/", "_blank");
+}
+
+this.ClickView_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
+function fl_ClickToGoToWebPage_22() {
+	window.open("https://online.clickview.com.au", "_blank");
+}
+
+this.ClicktoPlay_btn.addEventListener("click", fl_ClickToGoToWebPage_23);
+function fl_ClickToGoToWebPage_23() {
+	window.open("https://clicktopray.org", "_blank");
+}
+
+this.CyberHound_btn.addEventListener("click", fl_ClickToGoToWebPage_24);
+function fl_ClickToGoToWebPage_24() {
+	window.open("https://live.localnetwork.zone", "_blank");
+}
+
+this.Synergetic_btn.addEventListener("click", fl_ClickToGoToWebPage_25);
+function fl_ClickToGoToWebPage_25() {
+	window.open("https://synweb.dominic.tas.edu.au", "_blank");
+}
+
+this.Complispace_btn.addEventListener("click", fl_ClickToGoToWebPage_26);
+function fl_ClickToGoToWebPage_26() {
+	window.open("https://dominic.complispaceprimary.com.au/login", "_blank");
+}
+
+this.SOBS_btn.addEventListener("click", fl_ClickToGoToWebPage_28);
+function fl_ClickToGoToWebPage_28() {
+	window.open("https://sobs.com.au/pt/loginpage.php?schoolid=408", "_blank");
+}
+
+this.PaperCut_btn.addEventListener("click", fl_ClickToGoToWebPage_29);
+function fl_ClickToGoToWebPage_29() {
+	window.open("http://printserver:9191/user", "_blank");
+}
+
+this.SLASA_Harvard_btn.addEventListener("click", fl_ClickToGoToWebPage_51);
+
+function fl_ClickToGoToWebPage_51() {
+	window.open("https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Forg.slasa.asn.au%2Fs%2FVNyHZ9RfNToBCpNEcFcWpg%2Fharvard%2F&amp;data=05%7C01%7Csbromfield%40dominic.tas.edu.au%7C3dcc1a4202434df19fbf08da3cb74f90%7Cefb1c42ef4574deaa77c11a7845db864%7C0%7C0%7C637889055838539038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=qmpCrFw%2BFs1xJJK%2FnSQvZaD6M5rIh5mt1e4Q9%2Brlp48%3D&amp;reserved=0", "_blank");
+}
+
+
+
+Frame 10
+
+/* Stop at This Frame*/
+this.stop();
+
+
+
+Frame 20
+
+/* Stop at This Frame*/
+this.stop();
+
+/* Click to Go to Frame and Play*/
+
+this.Shader_Btn_1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_43.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_43() {
 	this.gotoAndPlay(5);
 }
+/* Click to Go to Web Page*/
 
-/* Click to Go to Web Page */
-this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_6);
-function fl_ClickToGoToWebPage_6() {
-	window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
-}
-
-this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_7);
-function fl_ClickToGoToWebPage_7() {
+this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_16);
+function fl_ClickToGoToWebPage_16() {
 	window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
 }
 
-this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_8);
-function fl_ClickToGoToWebPage_8() {
+this.SEQTA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_53);
+function fl_ClickToGoToWebPage_53() {
+	window.open("https://static.seqta.com.au/ecourses/", "_blank");
+}
+
+this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_17);
+function fl_ClickToGoToWebPage_17() {
+	window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
+}
+
+this.Incident_Report_btn.addEventListener("click", fl_ClickToGoToWebPage_18);
+function fl_ClickToGoToWebPage_18() {
 	window.open("https://cet.csassurance.com/contracts/new?contract_template=241&amp;token=yn7JqszAFvkQSydzeN7s", "_blank");
 }
 
+
+
 Frame 30
 
-/* Click to Go to Frame and Play*/
-this.Shader_Btn_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
-function fl_ClickToGoToAndPlayFromFrame_4() {
-	this.gotoAndPlay(1);
-}
+/* Stop at This Frame*/
+this.stop();
 
-/* Click to Go to Web Page */
-this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage_5);
-function fl_ClickToGoToWebPage_5() {
+/* Click to Go to Frame and Play*/
+
+this.Shader_Btn_2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_44.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_44() {
+	this.gotoAndPlay(5);
+}
+/* Click to Go to Web Page*/
+
+this.JacPLus_btn.addEventListener("click", fl_ClickToGoToWebPage_30);
+function fl_ClickToGoToWebPage_30() {
 	window.open("http://jacplus.com.au/", "_blank");
 }
 
-this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_12);
-function fl_ClickToGoToWebPage_12() {
-	window.open("https://dominic.eplatform.co/", "_blank");
-}
-
-this.PAT_Testing_btn.addEventListener("click", fl_ClickToGoToWebPage_13);
-function fl_ClickToGoToWebPage_13() {
-	window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
-}
-
-this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_17);
-function fl_ClickToGoToWebPage_17() {
-	window.open("https://www.worldbookonline.com/?uid=dominic&amp;pwd=library", "_blank");
-}
-
-this.EdSmart_btn.addEventListener("click", fl_ClickToGoToWebPage_18);
-function fl_ClickToGoToWebPage_18() {
-	window.open("https://app.edsmart.com/signin", "_blank");
-}
-
-this.EdHQ_btn.addEventListener("click", fl_ClickToGoToWebPage_19);
-function fl_ClickToGoToWebPage_19() {
-	window.open("https://educationhq.com/news-home/", "_blank");
-}
-
-this.Accessit_btn.addEventListener("click", fl_ClickToGoToWebPage_24);
-function fl_ClickToGoToWebPage_24() {
+this.Accessit_btn.addEventListener("click", fl_ClickToGoToWebPage_31);
+function fl_ClickToGoToWebPage_31() {
 	window.open("https://au.accessit.online/DMN02/", "_blank");
 }
 
-this.Renaissance_btn.addEventListener("click", fl_ClickToGoToWebPage_26);
-function fl_ClickToGoToWebPage_26() {
+this.EdHQ_btn.addEventListener("click", fl_ClickToGoToWebPage_32);
+function fl_ClickToGoToWebPage_32() {
+	window.open("https://educationhq.com/news-home/", "_blank");
+}
+
+this.Renaissance_btn.addEventListener("click", fl_ClickToGoToWebPage_33);
+function fl_ClickToGoToWebPage_33() {
 	window.open("https://auhosted5.renlearn.com.au/1458025/", "_blank");
 }
 
+this.WorldBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_34);
+function fl_ClickToGoToWebPage_34() {
+	window.open("https://www.worldbookonline.com/?uesername=dominic&;password=library", "_blank");
+}
+
+this.Wheelers_eBooks_btn.addEventListener("click", fl_ClickToGoToWebPage_35);
+function fl_ClickToGoToWebPage_35() {
+	window.open("https://dominic.eplatform.co/", "_blank");
+}
+
+this.EdSmart_btn.addEventListener("click", fl_ClickToGoToWebPage_36);
+function fl_ClickToGoToWebPage_36() {
+	window.open("https://app.edsmart.com/signin", "_blank");
+}
+
+this.PAT_Testing_btn.addEventListener("click", fl_ClickToGoToWebPage_37);
+function fl_ClickToGoToWebPage_37() {
+	window.open("https://oars.acer.edu.au/dominic-college-glenorchy", "_blank");
+}
+
+
+
 Frame 40
 
+/* Stop at This Frame*/
+this.stop();
+
 /* Click to Go to Frame and Play*/
-this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
-function fl_ClickToGoToAndPlayFromFrame_4() {
-	this.gotoAndPlay(1);
-}
 
-/* Click to Go to Web Page */
-this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_11);
-function fl_ClickToGoToWebPage_11() {
-	window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
+this.Shader_Btn_3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_45.bind(this));
+function fl_ClickToGoToAndPlayFromFrame_45() {
+	this.gotoAndPlay(5);
 }
+/* Click to Go to Web Page*/
 
-this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_21);
-function fl_ClickToGoToWebPage_21() {
+this.PL_Form_btn.addEventListener("click", fl_ClickToGoToWebPage_38);
+function fl_ClickToGoToWebPage_38() {
 	window.open("https://media.digistormhosting.com.au/dominic/content/backgroundContent/Staff-Professional-Learning-Application-Fillable.pdf?mtime=20201014151718", "_blank");
 }
 
-this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_22);
-function fl_ClickToGoToWebPage_22() {
+this.Petty_Cash_btn.addEventListener("click", fl_ClickToGoToWebPage_39);
+function fl_ClickToGoToWebPage_39() {
+	window.open("https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/backgroundContent/SEQTA-Assets/PettyCashClaimForm.pdf?mtime=20191011150956", "_blank");
+}
+
+this.sage_btn.addEventListener("click", fl_ClickToGoToWebPage_55);
+function fl_ClickToGoToWebPage_55() {
 	window.open("https://ess.cloud.micropay.com.au/#/", "_blank");
 }
+
 

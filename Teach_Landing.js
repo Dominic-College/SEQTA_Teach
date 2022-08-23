@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Teach_Landing_atlas_1", frames: [[1505,0,273,94],[1505,96,273,94],[1505,192,273,94],[1505,288,273,94],[1505,384,273,94],[0,0,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[0,389,273,94],[275,389,273,94],[550,389,273,94],[825,389,273,94],[1100,389,273,94],[1375,480,273,94],[1650,480,273,94],[1650,576,273,93],[0,581,273,93],[275,581,273,93],[550,581,273,93],[0,485,273,94],[825,581,273,93],[1100,581,273,93],[1650,671,273,93],[1375,672,273,93],[0,676,273,93],[275,485,273,94],[550,485,273,94],[275,676,273,93],[825,485,273,94],[1100,485,273,94],[550,676,273,93],[1375,576,273,94]]},
+		{name:"Teach_Landing_atlas_1", frames: [[1505,0,273,94],[1505,96,273,94],[1505,192,273,94],[1505,288,273,94],[1505,384,273,94],[0,0,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[0,389,273,94],[275,389,273,94],[550,389,273,94],[825,389,273,94],[1100,389,273,94],[1375,480,273,94],[1650,480,273,94],[0,581,273,93],[275,581,273,93],[550,581,273,93],[825,581,273,93],[0,485,273,94],[1100,581,273,93],[1375,672,273,93],[1650,672,273,93],[0,676,273,93],[275,676,273,93],[275,485,273,94],[550,485,273,94],[825,485,273,94],[550,676,273,93],[1100,485,273,94],[1375,576,273,94],[825,676,273,93],[1650,576,273,94]]},
 		{name:"Teach_Landing_atlas_2", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
 		{name:"Teach_Landing_atlas_3", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
 		{name:"Teach_Landing_atlas_4", frames: [[0,0,299,387],[0,389,299,387],[0,778,299,387],[0,1167,299,387],[0,1556,299,387],[301,0,299,387],[602,0,299,387],[903,0,299,387],[1204,0,299,387],[1505,0,299,387],[301,389,299,387],[301,778,299,387],[301,1167,299,387],[301,1556,299,387],[602,389,299,387],[903,389,299,387],[1204,389,299,387],[1505,389,299,387],[602,778,299,387],[602,1167,299,387],[602,1556,299,387],[903,778,299,387],[903,1167,299,387],[903,1556,299,387],[1204,778,299,387],[1505,778,299,387],[1204,1167,299,387],[1204,1556,299,387],[1505,1167,299,387],[1505,1556,299,387]]},
@@ -1060,51 +1060,58 @@ lib.ssMetadata = [
 
 
 
-(lib.SEQTA_Oval03x = function() {
+(lib.SeeSaw03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SharePoint_Oval03x = function() {
+(lib.SEQTA_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SOBS_Oval03x = function() {
+(lib.SharePoint_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Synergetic_Oval03x = function() {
+(lib.SOBS_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.TL_Resources_Oval03x = function() {
+(lib.Synergetic_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Wheelers_eBooks_Oval03x = function() {
+(lib.TL_Resources_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Worldbooks_Oval03x = function() {
+(lib.Wheelers_eBooks_Oval03x = function() {
 	this.initialize(ss["Teach_Landing_atlas_1"]);
 	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Worldbooks_Oval03x = function() {
+	this.initialize(ss["Teach_Landing_atlas_1"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1159,7 +1166,7 @@ if (reversed == null) { reversed = false; }
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#857345").s().p("A3beUMAAAg8nMAu3AAAMAAAA8ng");
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(3));
 
 	this._renderFirstFrame();
 
@@ -1705,6 +1712,40 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-136.5,-53.4,273,109);
+
+
+(lib.Seesaw_Oval = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.text = new cjs.Text("Seesaw", "bold 24px 'Calibri'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 24;
+	this.text.lineWidth = 110;
+	this.text.parent = this;
+	this.text.setTransform(30.7,-16.65);
+	this.text.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,2,8);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({scaleX:0.95,scaleY:0.95,x:30.2825,y:-15.9,color:"#857345"},0).wait(2));
+
+	// Layer_1
+	this.instance = new lib.SeeSaw03x();
+	this.instance.setTransform(-136.5,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.95,scaleY:0.95,x:-129.65,y:-44.6},0).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-136.5,-47,273,94);
 
 
 (lib.sage_Oval = function(mode,startPosition,loop,reversed) {
@@ -2607,6 +2648,12 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToWebPage_24() {
 			window.open("https://app.edsmart.com/signin", "_blank");
 		}
+		
+		this.seesaw_btn.addEventListener("click", fl_ClickToGoToWebPage_28);
+		
+		function fl_ClickToGoToWebPage_28() {
+			window.open("https://app.seesaw.me/#/login", "_blank");
+		}
 	}
 	this.frame_39 = function() {
 		/* Stop at This Frame */
@@ -2705,11 +2752,11 @@ if (reversed == null) { reversed = false; }
 
 	this.ClickView_btn = new lib.ClickView_Oval();
 	this.ClickView_btn.name = "ClickView_btn";
-	this.ClickView_btn.setTransform(764,379);
+	this.ClickView_btn.setTransform(764,402);
 	new cjs.ButtonHelper(this.ClickView_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},20).to({state:[{t:this.ClickView_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(20).to({_off:false},0).to({_off:true,x:764,y:379},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(20).to({_off:false},0).to({_off:true,x:764},9).wait(11));
 
 	// EdHQ_btn_anim
 	this.instance_5 = new lib.EdHQ_Oval();
@@ -2719,11 +2766,11 @@ if (reversed == null) { reversed = false; }
 
 	this.EdHQ_btn = new lib.EdHQ_Oval();
 	this.EdHQ_btn.name = "EdHQ_btn";
-	this.EdHQ_btn.setTransform(764,522);
+	this.EdHQ_btn.setTransform(764,510);
 	new cjs.ButtonHelper(this.EdHQ_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5}]},20).to({state:[{t:this.EdHQ_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(20).to({_off:false},0).to({_off:true,x:764,y:522},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(20).to({_off:false},0).to({_off:true,x:764,y:510},9).wait(11));
 
 	// EdSmart_btn_anim
 	this.instance_6 = new lib.EdSmart_Oval();
@@ -2733,11 +2780,11 @@ if (reversed == null) { reversed = false; }
 
 	this.EdSmart_btn = new lib.EdSmart_Oval();
 	this.EdSmart_btn.name = "EdSmart_btn";
-	this.EdSmart_btn.setTransform(259,379);
+	this.EdSmart_btn.setTransform(259,402);
 	new cjs.ButtonHelper(this.EdSmart_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},20).to({state:[{t:this.EdSmart_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(20).to({_off:false},0).to({_off:true,x:259,y:379},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(20).to({_off:false},0).to({_off:true,x:259},9).wait(11));
 
 	// JacPlus_btn_anim
 	this.instance_7 = new lib.JacPlus_Oval();
@@ -2747,11 +2794,11 @@ if (reversed == null) { reversed = false; }
 
 	this.JacPLus_btn = new lib.JacPlus_Oval();
 	this.JacPLus_btn.name = "JacPLus_btn";
-	this.JacPLus_btn.setTransform(683,238);
+	this.JacPLus_btn.setTransform(683,294);
 	new cjs.ButtonHelper(this.JacPLus_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},20).to({state:[{t:this.JacPLus_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(20).to({_off:false},0).to({_off:true,x:683,y:238},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(20).to({_off:false},0).to({_off:true,x:683,y:294},9).wait(11));
 
 	// Pat_Testing_btn_anim
 	this.instance_8 = new lib.PAT_Testing_Oval();
@@ -2761,11 +2808,11 @@ if (reversed == null) { reversed = false; }
 
 	this.PAT_Testing_btn = new lib.PAT_Testing_Oval();
 	this.PAT_Testing_btn.name = "PAT_Testing_btn";
-	this.PAT_Testing_btn.setTransform(340,238);
+	this.PAT_Testing_btn.setTransform(340,294);
 	new cjs.ButtonHelper(this.PAT_Testing_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},20).to({state:[{t:this.PAT_Testing_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(20).to({_off:false},0).to({_off:true,x:340,y:238},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(20).to({_off:false},0).to({_off:true,x:340,y:294},9).wait(11));
 
 	// Renaisance_btn_anim
 	this.instance_9 = new lib.Renaisance_Oval();
@@ -2775,125 +2822,139 @@ if (reversed == null) { reversed = false; }
 
 	this.Renaisance_btn = new lib.Renaisance_Oval();
 	this.Renaisance_btn.name = "Renaisance_btn";
-	this.Renaisance_btn.setTransform(683,663);
+	this.Renaisance_btn.setTransform(683,618);
 	new cjs.ButtonHelper(this.Renaisance_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9}]},20).to({state:[{t:this.Renaisance_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(20).to({_off:false},0).to({_off:true,x:683,y:663},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(20).to({_off:false},0).to({_off:true,x:683,y:618},9).wait(11));
 
-	// Wheeler_eBooks_btn_anim
-	this.instance_10 = new lib.Wheelers_eBooks_Oval();
+	// Seesaw_btn_anim
+	this.instance_10 = new lib.Seesaw_Oval();
 	this.instance_10.setTransform(225,402);
 	this.instance_10._off = true;
 	new cjs.ButtonHelper(this.instance_10, 0, 1, 2);
 
-	this.Wheelers_eBooks_btn = new lib.Wheelers_eBooks_Oval();
-	this.Wheelers_eBooks_btn.name = "Wheelers_eBooks_btn";
-	this.Wheelers_eBooks_btn.setTransform(259,522);
-	new cjs.ButtonHelper(this.Wheelers_eBooks_btn, 0, 1, 2);
+	this.seesaw_btn = new lib.Seesaw_Oval();
+	this.seesaw_btn.name = "seesaw_btn";
+	this.seesaw_btn.setTransform(507.5,185);
+	new cjs.ButtonHelper(this.seesaw_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},20).to({state:[{t:this.Wheelers_eBooks_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({_off:true,x:259,y:522},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},20).to({state:[{t:this.seesaw_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(20).to({_off:false},0).to({_off:true,x:507.5,y:185},9).wait(11));
 
-	// WorldBooks_btn_anim
-	this.instance_11 = new lib.Worldbooks_Oval();
+	// Wheeler_eBooks_btn_anim
+	this.instance_11 = new lib.Wheelers_eBooks_Oval();
 	this.instance_11.setTransform(225,402);
 	this.instance_11._off = true;
 	new cjs.ButtonHelper(this.instance_11, 0, 1, 2);
 
-	this.WorldBooks_btn = new lib.Worldbooks_Oval();
-	this.WorldBooks_btn.name = "WorldBooks_btn";
-	this.WorldBooks_btn.setTransform(340,663);
-	new cjs.ButtonHelper(this.WorldBooks_btn, 0, 1, 2);
+	this.Wheelers_eBooks_btn = new lib.Wheelers_eBooks_Oval();
+	this.Wheelers_eBooks_btn.name = "Wheelers_eBooks_btn";
+	this.Wheelers_eBooks_btn.setTransform(259,510);
+	new cjs.ButtonHelper(this.Wheelers_eBooks_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_11}]},20).to({state:[{t:this.WorldBooks_btn}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({_off:true,x:340,y:663},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_11}]},20).to({state:[{t:this.Wheelers_eBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(20).to({_off:false},0).to({_off:true,x:259,y:510},9).wait(11));
 
-	// Shader_2
-	this.instance_12 = new lib.Shader_Btn();
-	this.instance_12.setTransform(516,467);
-	this.instance_12.alpha = 0;
+	// WorldBooks_btn_anim
+	this.instance_12 = new lib.Worldbooks_Oval();
+	this.instance_12.setTransform(225,402);
 	this.instance_12._off = true;
 	new cjs.ButtonHelper(this.instance_12, 0, 1, 2);
+
+	this.WorldBooks_btn = new lib.Worldbooks_Oval();
+	this.WorldBooks_btn.name = "WorldBooks_btn";
+	this.WorldBooks_btn.setTransform(340,618);
+	new cjs.ButtonHelper(this.WorldBooks_btn, 0, 1, 2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},20).to({state:[{t:this.WorldBooks_btn}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(20).to({_off:false},0).to({_off:true,x:340,y:618},9).wait(11));
+
+	// Shader_2
+	this.instance_13 = new lib.Shader_Btn();
+	this.instance_13.setTransform(516,467);
+	this.instance_13.alpha = 0;
+	this.instance_13._off = true;
+	new cjs.ButtonHelper(this.instance_13, 0, 1, 2);
 
 	this.Shader_Btn_2 = new lib.Shader_Btn();
 	this.Shader_Btn_2.name = "Shader_Btn_2";
 	this.Shader_Btn_2.setTransform(516,467);
 	new cjs.ButtonHelper(this.Shader_Btn_2, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},20).to({state:[{t:this.Shader_Btn_2}]},9).to({state:[]},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(20).to({_off:false},0).to({_off:true,alpha:1},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_13}]},20).to({state:[{t:this.Shader_Btn_2}]},9).to({state:[]},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(20).to({_off:false},0).to({_off:true,alpha:1},9).wait(11));
 
 	// E_Learning__btn_anim
-	this.instance_13 = new lib.E_Learning_Ticket_Oval();
-	this.instance_13.setTransform(510,185);
-	this.instance_13._off = true;
-	new cjs.ButtonHelper(this.instance_13, 0, 1, 2);
+	this.instance_14 = new lib.E_Learning_Ticket_Oval();
+	this.instance_14.setTransform(510,185);
+	this.instance_14._off = true;
+	new cjs.ButtonHelper(this.instance_14, 0, 1, 2);
 
 	this.E_Learning_Submit_btn = new lib.E_Learning_Ticket_Oval();
 	this.E_Learning_Submit_btn.name = "E_Learning_Submit_btn";
 	this.E_Learning_Submit_btn.setTransform(318,347);
 	new cjs.ButtonHelper(this.E_Learning_Submit_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_13}]},10).to({state:[{t:this.E_Learning_Submit_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(10).to({_off:false},0).to({_off:true,x:318,y:347},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.E_Learning_Submit_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(10).to({_off:false},0).to({_off:true,x:318,y:347},9).wait(21));
 
 	// Incident_report_btn_anim
-	this.instance_14 = new lib.Incident_Report_Oval();
-	this.instance_14.setTransform(510,185);
-	this.instance_14._off = true;
-	new cjs.ButtonHelper(this.instance_14, 0, 1, 2);
+	this.instance_15 = new lib.Incident_Report_Oval();
+	this.instance_15.setTransform(510,185);
+	this.instance_15._off = true;
+	new cjs.ButtonHelper(this.instance_15, 0, 1, 2);
 
 	this.Incident_Report_btn = new lib.Incident_Report_Oval();
 	this.Incident_Report_btn.name = "Incident_Report_btn";
 	this.Incident_Report_btn.setTransform(689,510);
 	new cjs.ButtonHelper(this.Incident_Report_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},10).to({state:[{t:this.Incident_Report_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(10).to({_off:false},0).to({_off:true,x:689,y:510},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15}]},10).to({state:[{t:this.Incident_Report_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(10).to({_off:false},0).to({_off:true,x:689,y:510},9).wait(21));
 
 	// Maintenance_Report_btn_anim
-	this.instance_15 = new lib.Maintenance_Request_Oval();
-	this.instance_15.setTransform(510,185);
-	this.instance_15._off = true;
-	new cjs.ButtonHelper(this.instance_15, 0, 1, 2);
+	this.instance_16 = new lib.Maintenance_Request_Oval();
+	this.instance_16.setTransform(510,185);
+	this.instance_16._off = true;
+	new cjs.ButtonHelper(this.instance_16, 0, 1, 2);
 
 	this.Maintenance_btn = new lib.Maintenance_Request_Oval();
 	this.Maintenance_btn.name = "Maintenance_btn";
 	this.Maintenance_btn.setTransform(318,510);
 	new cjs.ButtonHelper(this.Maintenance_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15}]},10).to({state:[{t:this.Maintenance_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(10).to({_off:false},0).to({_off:true,x:318,y:510},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.Maintenance_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,x:318,y:510},9).wait(21));
 
 	// SEQTA_btn_anim
-	this.instance_16 = new lib.SEQTA_Oval_btn();
-	this.instance_16.setTransform(510,185);
-	this.instance_16._off = true;
-	new cjs.ButtonHelper(this.instance_16, 0, 1, 2);
+	this.instance_17 = new lib.SEQTA_Oval_btn();
+	this.instance_17.setTransform(510,185);
+	this.instance_17._off = true;
+	new cjs.ButtonHelper(this.instance_17, 0, 1, 2);
 
 	this.SEQTA_Resources_btn = new lib.SEQTA_Oval_btn();
 	this.SEQTA_Resources_btn.name = "SEQTA_Resources_btn";
 	this.SEQTA_Resources_btn.setTransform(689,347);
 	new cjs.ButtonHelper(this.SEQTA_Resources_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},10).to({state:[{t:this.SEQTA_Resources_btn}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(10).to({_off:false},0).to({_off:true,x:689,y:347},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},10).to({state:[{t:this.SEQTA_Resources_btn}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(10).to({_off:false},0).to({_off:true,x:689,y:347},9).wait(21));
 
 	// Shader_1
-	this.instance_17 = new lib.Shader_Btn();
-	this.instance_17.setTransform(516,467);
-	this.instance_17.alpha = 0;
-	this.instance_17._off = true;
-	new cjs.ButtonHelper(this.instance_17, 0, 1, 2);
+	this.instance_18 = new lib.Shader_Btn();
+	this.instance_18.setTransform(516,467);
+	this.instance_18.alpha = 0;
+	this.instance_18._off = true;
+	new cjs.ButtonHelper(this.instance_18, 0, 1, 2);
 
 	this.Shader_Btn_1 = new lib.Shader_Btn();
 	this.Shader_Btn_1.name = "Shader_Btn_1";
 	this.Shader_Btn_1.setTransform(516,467);
 	new cjs.ButtonHelper(this.Shader_Btn_1, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},10).to({state:[{t:this.Shader_Btn_1}]},9).to({state:[]},1).wait(20));
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(10).to({_off:false},0).to({_off:true,alpha:1},9).wait(21));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_18}]},10).to({state:[{t:this.Shader_Btn_1}]},9).to({state:[]},1).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(10).to({_off:false},0).to({_off:true,alpha:1},9).wait(21));
 
 	// Forms_Reports_btn_anim
 	this.Forms_btn = new lib.Forms_Reports_Oval();
@@ -3012,15 +3073,15 @@ if (reversed == null) { reversed = false; }
 	this.Dominic_Logo_link.name = "Dominic_Logo_link";
 	this.Dominic_Logo_link.setTransform(507.5,453);
 	this.Dominic_Logo_link.alpha = 0;
-	new cjs.ButtonHelper(this.Dominic_Logo_link, 0, 1, 1);
+	new cjs.ButtonHelper(this.Dominic_Logo_link, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get(this.Dominic_Logo_link).wait(40));
 
 	// Dominic_Crest
-	this.instance_18 = new lib.Crestcolourforanimation_300x388_gif();
-	this.instance_18.setTransform(507.5,453.5,1,1,0,0,0,149.5,193.5);
+	this.instance_19 = new lib.Crestcolourforanimation_300x388_gif();
+	this.instance_19.setTransform(507.5,453.5,1,1,0,0,0,149.5,193.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(40));
 
 	this._renderFirstFrame();
 
