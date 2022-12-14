@@ -2965,7 +2965,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.E_Learning_Submit_btn.addEventListener("click", fl_ClickToGoToWebPage_13);
 		function fl_ClickToGoToWebPage_13() {
-			window.open("https://dominiccollege.haloitsm.com/portal/service?btn=9&itil_requesttype_id=3&autolog=true&id=78", "_blank");
+			window.open("Mailto: elearning@dominic.tas.edu.au", "_blank");
 		}
 		
 		this.SEQTA_Resources_btn.addEventListener("click", fl_ClickToGoToWebPage_14);
@@ -2980,7 +2980,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.Maintenance_btn.addEventListener("click", fl_ClickToGoToWebPage_16);
 		function fl_ClickToGoToWebPage_16() {
-			window.open("https://dominiccollege.haloitsm.com/portal/service?btn=9&itil_requesttype_id=3&autolog=true&id=104", "_blank");
+			window.open("Mailto: maintenance@dominic.tas.edu.au", "_blank");
 		}
 	}
 	this.frame_29 = function() {
